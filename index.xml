@@ -14,9 +14,9 @@
     
     <item>
       <title>Discop: Provably Secure Steganography in Practice Based on “Distribution Copies”</title>
-      <link>https://dingjinyang.github.io/publication/sp23_stega/</link>
+      <link>https://dingjinyang.github.io/publication/sp23_discop/</link>
       <pubDate>Sat, 11 Mar 2023 09:00:11 +0800</pubDate>
-      <guid>https://dingjinyang.github.io/publication/sp23_stega/</guid>
+      <guid>https://dingjinyang.github.io/publication/sp23_discop/</guid>
       <description></description>
     </item>
     
@@ -27,6 +27,14 @@
       <guid>https://dingjinyang.github.io/news/sp23/</guid>
       <description>&lt;p&gt;Keep fighting!&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>ICStega: Image Captioning-based Semantically Controllable Linguistic Steganography</title>
+      <link>https://dingjinyang.github.io/publication/icassp23_icstega/</link>
+      <pubDate>Sat, 18 Feb 2023 13:38:20 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/publication/icassp23_icstega/</guid>
+      <description></description>
     </item>
     
     <item>
