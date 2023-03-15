@@ -13,6 +13,23 @@
     </image>
     
     <item>
+      <title>Useful Links</title>
+      <link>https://dingjinyang.github.io/useful-links/</link>
+      <pubDate>Wed, 15 Mar 2023 00:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/useful-links/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://jianying.space/conference-ranking.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Top Cyber Security Conferences Ranking&lt;/a&gt; by Jianying Zhou @ SUTD&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.s3.eurecom.fr/~balzarot/security-circus/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;System Security Circus&lt;/a&gt; by Davide Balzarotti @ Eurecom&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://nebelwelt.net/pubstats/top-authors-sys_sec.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;System Security Researchers Ranking - Big4 Only&lt;/a&gt; by Mathias Payer @ EPFL&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cs.cornell.edu/andru/csconf.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Top Publication Venues in Computer Science&lt;/a&gt; by Andrew Myers @ Cornell&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://secpaper.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Security Paper Retrieval System&lt;/a&gt; by NISL @ THU&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://ccfddl.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCF Conference Deadlines&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sec-deadlines.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Security and Privacy Conference Deadlines&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://aideadlin.es/?sub=ML,NLP,CV&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI Conference Deadlines&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Discop: Provably Secure Steganography in Practice Based on “Distribution Copies”</title>
       <link>https://dingjinyang.github.io/publication/sp23_discop/</link>
       <pubDate>Sat, 11 Mar 2023 09:00:11 +0800</pubDate>
