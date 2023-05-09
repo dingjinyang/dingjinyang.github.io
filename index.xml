@@ -19,11 +19,21 @@
       <guid>https://dingjinyang.github.io/misc/</guid>
       <description>&lt;h2 id=&#34;my-hobbies&#34;&gt;My Hobbies&lt;/h2&gt;
 &lt;p&gt;📷 Photography&lt;/p&gt;
-&lt;p&gt;🚴 &lt;strong&gt;Sports:&lt;/strong&gt; 🏸️ Badminton, 🏃 Running, 🏊 Swimming, 🚴 Cycling, …&lt;/p&gt;
-&lt;p&gt;📚 &lt;strong&gt;Reading:&lt;/strong&gt; Yu Hua, Lu Yao, Gabriel García Márquez, Haruki Murakami …&lt;/p&gt;
-&lt;p&gt;🎬 &lt;strong&gt;Movies:&lt;/strong&gt; Jiang Wen, Zhang Yimou, Christopher Nolan, Hayao Miyazaki …&lt;/p&gt;
-&lt;p&gt;🎼 &lt;strong&gt;Instrumental Music:&lt;/strong&gt; Hans Zimmer, Hisashi Kushiro, Ryuichi Sakamoto, …&lt;/p&gt;
-&lt;p&gt;🎵 &lt;strong&gt;Music with Lyrics:&lt;/strong&gt; Taylor Swift, Queen, Coldplay, Imagine Dragons, …&lt;/p&gt;
+&lt;p&gt;📚 Reading&lt;/p&gt;
+&lt;!-- Yu Hua, Lu Yao, Gabriel García Márquez, Haruki Murakami … --&gt;
+&lt;p&gt;🎬 Watching movies&lt;/p&gt;
+&lt;!-- Jiang Wen, Zhang Yimou, Christopher Nolan, Hayao Miyazaki … --&gt;
+&lt;p&gt;🎧 Listening to music and podcasts&lt;/p&gt;
+&lt;!-- 🎼 **Instrumental Music:** Hans Zimmer, Hisashi Kushiro, Ryuichi Sakamoto, …
+
+🎵 **Music with Lyrics:** Taylor Swift, Queen, Coldplay, Imagine Dragons, … --&gt;
+&lt;p&gt;🚴 Sports&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🏸️ Badminton&lt;/li&gt;
+&lt;li&gt;🏃 Running&lt;/li&gt;
+&lt;li&gt;🏊 Swimming&lt;/li&gt;
+&lt;li&gt;🚴 Cycling&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;my-logo&#34;&gt;My Logo&lt;/h2&gt;
 &lt;!-- ![](meetDJY_favicon_orange.png) --&gt;
