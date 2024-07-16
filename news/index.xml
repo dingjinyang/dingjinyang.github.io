@@ -5,7 +5,7 @@
     <link>https://dingjinyang.github.io/news/</link>
       <atom:link href="https://dingjinyang.github.io/news/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 29 Jan 2024 16:04:15 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 11 Mar 2023 09:00:11 +0800</lastBuildDate>
     <image>
       <url>https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png</url>
       <title>News</title>
@@ -13,15 +13,7 @@
     </image>
     
     <item>
-      <title>One regular paper on Provably Secure Public-Key Steganography was accepted by IEEE Transactions on Information Forensics and Security (TIFS)!</title>
-      <link>https://dingjinyang.github.io/news/tifs24/</link>
-      <pubDate>Mon, 29 Jan 2024 16:04:15 +0800</pubDate>
-      <guid>https://dingjinyang.github.io/news/tifs24/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>One work on Provably Secure Steganography was accepted by Oakland (IEEE S&amp;P) 2023!</title>
+      <title>One work on Provably Secure Steganography got accepted by Oakland (IEEE S&amp;P) 2023!</title>
       <link>https://dingjinyang.github.io/news/sp23/</link>
       <pubDate>Sat, 11 Mar 2023 09:00:11 +0800</pubDate>
       <guid>https://dingjinyang.github.io/news/sp23/</guid>
