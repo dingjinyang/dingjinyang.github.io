@@ -5,7 +5,7 @@
     <link>https://dingjinyang.github.io/tag/information-hiding/</link>
       <atom:link href="https://dingjinyang.github.io/tag/information-hiding/index.xml" rel="self" type="application/rss+xml" />
     <description>Information Hiding</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Feb 2024 12:00:00 +0800</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Feb 2024 12:00:00 +0800</lastBuildDate>
     <image>
       <url>https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png</url>
       <title>Information Hiding</title>
@@ -22,9 +22,9 @@
     
     <item>
       <title>RoCC: Robust Covert Communication Based on Cross-Modal Information Retrieval</title>
-      <link>https://dingjinyang.github.io/publication/cjig23_rocc/</link>
+      <link>https://dingjinyang.github.io/publication/cjig24_rocc/</link>
       <pubDate>Tue, 06 Feb 2024 17:25:32 +0800</pubDate>
-      <guid>https://dingjinyang.github.io/publication/cjig23_rocc/</guid>
+      <guid>https://dingjinyang.github.io/publication/cjig24_rocc/</guid>
       <description></description>
     </item>
     
@@ -36,7 +36,6 @@
       <description>&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/94StLBmtiH1Qahloet6MIQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CS Conference: IEEE S&amp;amp;P ’23 Introduction (in Chinese) - WeChat&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/70A_Rx8T-AmAeHU_dOgQZw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hermit Union: Discop: Provably Secure Steganography in Practice Based on “Distribution Copies” (in Chinese) - WeChat&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/bb5n6ALnCAGtmhqcCaNJqw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hermit Union: Awards 2023 (in Chinese) - WeChat&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/comydream/provably-secure-steganography&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;comydream/provably-secure-steganography: Provably Secure Steganography - GitHub&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
