@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steganography | Jinyang Ding</title>
+    <link>https://dingjinyang.github.io/tag/steganography/</link>
+      <atom:link href="https://dingjinyang.github.io/tag/steganography/index.xml" rel="self" type="application/rss+xml" />
+    <description>Steganography</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 11 Mar 2023 09:00:11 +0800</lastBuildDate>
+    <image>
+      <url>https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png</url>
+      <title>Steganography</title>
+      <link>https://dingjinyang.github.io/tag/steganography/</link>
+    </image>
+    
+    <item>
+      <title>Discop: Provably Secure Steganography in Practice Based on “Distribution Copies”</title>
+      <link>https://dingjinyang.github.io/publication/sp23_discop/</link>
+      <pubDate>Sat, 11 Mar 2023 09:00:11 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/publication/sp23_discop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ICStega: Image Captioning-based Semantically Controllable Linguistic Steganography</title>
+      <link>https://dingjinyang.github.io/publication/icassp23_icstega/</link>
+      <pubDate>Sat, 18 Feb 2023 13:38:20 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/publication/icassp23_icstega/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

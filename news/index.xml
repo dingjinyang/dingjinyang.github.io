@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News | Jinyang Ding</title>
+    <link>https://dingjinyang.github.io/news/</link>
+      <atom:link href="https://dingjinyang.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    <description>News</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 11 Mar 2023 09:00:11 +0800</lastBuildDate>
+    <image>
+      <url>https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png</url>
+      <title>News</title>
+      <link>https://dingjinyang.github.io/news/</link>
+    </image>
+    
+    <item>
+      <title>One work on Provably Secure Steganography got accepted by Oakland (IEEE S&amp;P) 2023!</title>
+      <link>https://dingjinyang.github.io/news/sp23/</link>
+      <pubDate>Sat, 11 Mar 2023 09:00:11 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/news/sp23/</guid>
+      <description>&lt;p&gt;Keep fighting!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
