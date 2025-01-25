@@ -5,12 +5,20 @@
     <link>https://dingjinyang.github.io/publication-type/1/</link>
       <atom:link href="https://dingjinyang.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sat, 11 Mar 2023 09:00:11 +0800</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Thu, 23 Jan 2025 21:27:38 +0800</lastBuildDate>
     <image>
       <url>https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://dingjinyang.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>SparSamp: Efficient Provably Secure Steganography Based on Sparse Sampling</title>
+      <link>https://dingjinyang.github.io/publication/sec25_sparsamp/</link>
+      <pubDate>Thu, 23 Jan 2025 21:27:38 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/publication/sec25_sparsamp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Discop: Provably Secure Steganography in Practice Based on “Distribution Copies”</title>

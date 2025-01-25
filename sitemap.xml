@@ -2,31 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dingjinyang.github.io/publication-type/1/</loc>
+    <lastmod>2025-01-23T21:27:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dingjinyang.github.io/tag/information-hiding/</loc>
+    <lastmod>2025-01-23T21:27:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dingjinyang.github.io/</loc>
+    <lastmod>2025-01-23T21:27:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dingjinyang.github.io/publication_types/</loc>
+    <lastmod>2025-01-23T21:27:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dingjinyang.github.io/publication/</loc>
+    <lastmod>2025-01-23T21:27:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dingjinyang.github.io/publication/sec25_sparsamp/</loc>
+    <lastmod>2025-01-23T21:27:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dingjinyang.github.io/tags/</loc>
+    <lastmod>2025-01-23T21:27:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dingjinyang.github.io/news/</loc>
+    <lastmod>2025-01-23T09:00:11+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dingjinyang.github.io/news/sec25/</loc>
+    <lastmod>2025-01-23T09:00:11+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://dingjinyang.github.io/publication-type/2/</loc>
     <lastmod>2024-02-07T12:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dingjinyang.github.io/tag/information-hiding/</loc>
-    <lastmod>2024-02-07T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://dingjinyang.github.io/</loc>
-    <lastmod>2024-02-07T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://dingjinyang.github.io/publication/tifs24_eccstega/</loc>
-    <lastmod>2024-02-07T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://dingjinyang.github.io/publication_types/</loc>
-    <lastmod>2024-02-07T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://dingjinyang.github.io/publication/</loc>
-    <lastmod>2024-02-07T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://dingjinyang.github.io/tags/</loc>
     <lastmod>2024-02-07T12:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -42,15 +58,7 @@
     <lastmod>2023-03-15T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dingjinyang.github.io/publication-type/1/</loc>
-    <lastmod>2023-03-11T09:00:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://dingjinyang.github.io/publication/sp23_discop/</loc>
-    <lastmod>2023-03-11T09:00:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://dingjinyang.github.io/news/</loc>
     <lastmod>2023-03-11T09:00:11+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

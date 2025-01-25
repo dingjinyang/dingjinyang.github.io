@@ -280,12 +280,12 @@
 
   
 
-<meta name="description" content="Steganography is the technique of hiding secret messages within seemingly harmless covers to elude examination by censors. Despite having been proposed several decades ago, provably secure steganography has not gained popularity among researchers due to its rigorous data requirements. Recent advancements in generative models have enabled these researchers to provide explicit data distributions, which has contributed to the development of provably secure steganography methods. However, these methods depend on the assumption of a preshared key. In practical settings, these methods face various challenges, including key agreement, key updating, and user expansion. Although public-key steganography provides a viable solution, existing public-key steganography approaches are burdened with inefficiency and complex implementation in practical scenarios. In this paper, we proposes a practical public-key steganography method based on elliptic curve cryptography and a generative model. This method is the first comprehensive and practical approach to public-key steganography and steganographic key exchange. Additionally, we provide a specific instance to illustrate the proposed method. The security of the proposed construction is also proven based on computational complexity theory. Further experiments have demonstrated the security and efficiency of the proposed method." />
+<meta name="description" content="Steganography embeds confidential data within seemingly harmless communications. Provable security in steganography, a long-sought goal, has become feasible with deep generative models. However, current methods often either compromise security or introduce significant computational complexity, failing to provide secure and efficient covert communication. This paper introduces SparSamp, an efficient provably secure steganography method based on sparse sampling. SparSamp embeds messages by converting them into message-driven sampling. It enhances extraction accuracy and embedding capacity by increasing the sampling intervals and making the sampling process sparse. SparSamp preserves the original probability distribution of the generative model, thus ensuring security. It introduces only $O(1)$ additional complexity per sampling step, which does not impact the speed of model generation, resulting in the fastest embedding speed available. SparSamp is designed to be plug-and-play; message embedding can be achieved by simply replacing the sampling component of an existing generative model with SparSamp. We implemented SparSamp in text, image, and audio generation models. It can achieve embedding speeds of up to 755 bits/second with GPT-2, 5046 bits/second with DDPM, and 9,223 bits/second with WaveRNN, enabling secure covert communication." />
 
 
 
-<link rel="alternate" hreflang="en" href="https://dingjinyang.github.io/publication/tifs24_eccstega/" />
-<link rel="canonical" href="https://dingjinyang.github.io/publication/tifs24_eccstega/" />
+<link rel="alternate" hreflang="en" href="https://dingjinyang.github.io/publication/sec25_sparsamp/" />
+<link rel="canonical" href="https://dingjinyang.github.io/publication/sec25_sparsamp/" />
 
 
 
@@ -324,18 +324,18 @@
 
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="Jinyang Ding" />
-<meta property="og:url" content="https://dingjinyang.github.io/publication/tifs24_eccstega/" />
-<meta property="og:title" content="Provably Secure Public-Key Steganography Based on Elliptic Curve Cryptography | Jinyang Ding" />
-<meta property="og:description" content="Steganography is the technique of hiding secret messages within seemingly harmless covers to elude examination by censors. Despite having been proposed several decades ago, provably secure steganography has not gained popularity among researchers due to its rigorous data requirements. Recent advancements in generative models have enabled these researchers to provide explicit data distributions, which has contributed to the development of provably secure steganography methods. However, these methods depend on the assumption of a preshared key. In practical settings, these methods face various challenges, including key agreement, key updating, and user expansion. Although public-key steganography provides a viable solution, existing public-key steganography approaches are burdened with inefficiency and complex implementation in practical scenarios. In this paper, we proposes a practical public-key steganography method based on elliptic curve cryptography and a generative model. This method is the first comprehensive and practical approach to public-key steganography and steganographic key exchange. Additionally, we provide a specific instance to illustrate the proposed method. The security of the proposed construction is also proven based on computational complexity theory. Further experiments have demonstrated the security and efficiency of the proposed method." /><meta property="og:image" content="https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en" />
+<meta property="og:url" content="https://dingjinyang.github.io/publication/sec25_sparsamp/" />
+<meta property="og:title" content="SparSamp: Efficient Provably Secure Steganography Based on Sparse Sampling | Jinyang Ding" />
+<meta property="og:description" content="Steganography embeds confidential data within seemingly harmless communications. Provable security in steganography, a long-sought goal, has become feasible with deep generative models. However, current methods often either compromise security or introduce significant computational complexity, failing to provide secure and efficient covert communication. This paper introduces SparSamp, an efficient provably secure steganography method based on sparse sampling. SparSamp embeds messages by converting them into message-driven sampling. It enhances extraction accuracy and embedding capacity by increasing the sampling intervals and making the sampling process sparse. SparSamp preserves the original probability distribution of the generative model, thus ensuring security. It introduces only $O(1)$ additional complexity per sampling step, which does not impact the speed of model generation, resulting in the fastest embedding speed available. SparSamp is designed to be plug-and-play; message embedding can be achieved by simply replacing the sampling component of an existing generative model with SparSamp. We implemented SparSamp in text, image, and audio generation models. It can achieve embedding speeds of up to 755 bits/second with GPT-2, 5046 bits/second with DDPM, and 9,223 bits/second with WaveRNN, enabling secure covert communication." /><meta property="og:image" content="https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en" />
 
   
     <meta
       property="article:published_time"
-      content="2024-02-07T12:00:00&#43;08:00"
+      content="2025-01-23T21:27:38&#43;08:00"
     />
   
   
-    <meta property="article:modified_time" content="2024-02-07T12:00:00&#43;08:00">
+    <meta property="article:modified_time" content="2025-01-23T21:27:38&#43;08:00">
   
 
 
@@ -359,16 +359,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://dingjinyang.github.io/publication/tifs24_eccstega/"
+    "@id": "https://dingjinyang.github.io/publication/sec25_sparsamp/"
   },
-  "headline": "Provably Secure Public-Key Steganography Based on Elliptic Curve Cryptography",
+  "headline": "SparSamp: Efficient Provably Secure Steganography Based on Sparse Sampling",
   
-  "datePublished": "2024-02-07T12:00:00+08:00",
-  "dateModified": "2024-02-07T12:00:00+08:00",
+  "datePublished": "2025-01-23T21:27:38+08:00",
+  "dateModified": "2025-01-23T21:27:38+08:00",
   
   "author": {
     "@type": "Person",
-    "name": "Xin Zhang"
+    "name": "Yaofei Wang"
   },
   
   "publisher": {
@@ -379,7 +379,7 @@
       "url": "https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Steganography is the technique of hiding secret messages within seemingly harmless covers to elude examination by censors. Despite having been proposed several decades ago, provably secure steganography has not gained popularity among researchers due to its rigorous data requirements. Recent advancements in generative models have enabled these researchers to provide explicit data distributions, which has contributed to the development of provably secure steganography methods. However, these methods depend on the assumption of a preshared key. In practical settings, these methods face various challenges, including key agreement, key updating, and user expansion. Although public-key steganography provides a viable solution, existing public-key steganography approaches are burdened with inefficiency and complex implementation in practical scenarios. In this paper, we proposes a practical public-key steganography method based on elliptic curve cryptography and a generative model. This method is the first comprehensive and practical approach to public-key steganography and steganographic key exchange. Additionally, we provide a specific instance to illustrate the proposed method. The security of the proposed construction is also proven based on computational complexity theory. Further experiments have demonstrated the security and efficiency of the proposed method."
+  "description": "Steganography embeds confidential data within seemingly harmless communications. Provable security in steganography, a long-sought goal, has become feasible with deep generative models. However, current methods often either compromise security or introduce significant computational complexity, failing to provide secure and efficient covert communication. This paper introduces SparSamp, an efficient provably secure steganography method based on sparse sampling. SparSamp embeds messages by converting them into message-driven sampling. It enhances extraction accuracy and embedding capacity by increasing the sampling intervals and making the sampling process sparse. SparSamp preserves the original probability distribution of the generative model, thus ensuring security. It introduces only $O(1)$ additional complexity per sampling step, which does not impact the speed of model generation, resulting in the fastest embedding speed available. SparSamp is designed to be plug-and-play; message embedding can be achieved by simply replacing the sampling component of an existing generative model with SparSamp. We implemented SparSamp in text, image, and audio generation models. It can achieve embedding speeds of up to 755 bits/second with GPT-2, 5046 bits/second with DDPM, and 9,223 bits/second with WaveRNN, enabling secure covert communication."
 }
 </script>
 
@@ -401,7 +401,7 @@
 
 
   
-  <title>Provably Secure Public-Key Steganography Based on Elliptic Curve Cryptography | Jinyang Ding</title>
+  <title>SparSamp: Efficient Provably Secure Steganography Based on Sparse Sampling | Jinyang Ding</title>
 
   
   
@@ -421,7 +421,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3e2fdc505412582a7748addf59bc3c93" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="07095c189ce99df0ea785f0f73b97073" >
 
   
   
@@ -818,7 +818,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Provably Secure Public-Key Steganography Based on Elliptic Curve Cryptography</h1>
+  <h1>SparSamp: Efficient Provably Secure Steganography Based on Sparse Sampling</h1>
 
   
 
@@ -836,12 +836,13 @@
     
 
   <span >
-      Xin Zhang</span>, <span >
+      Yaofei Wang</span>, <span >
+      Gang Pei</span>, <span >
       Kejiang Chen</span>, <span class="author-highlighted">
       Jinyang Ding</span>, <span >
-      Yuqi Yang</span>, <span >
-      Weiming Zhang</span>, <span >
-      Nenghai Yu</span>
+      Chao Pan</span>, <span >
+      Donghui Hu</span>, <span >
+      Weiming Zhang</span>
   </div>
   
   
@@ -852,7 +853,7 @@
     
       
     
-    February, 2024
+    January, 2025
   </span>
   
 
@@ -875,48 +876,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/tifs24_eccstega/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1109/TIFS.2024.3361219" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-</div>
-
 
   
 </div>
@@ -927,7 +886,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Steganography is the technique of hiding secret messages within seemingly harmless covers to elude examination by censors. Despite having been proposed several decades ago, provably secure steganography has not gained popularity among researchers due to its rigorous data requirements. Recent advancements in generative models have enabled these researchers to provide explicit data distributions, which has contributed to the development of provably secure steganography methods. However, these methods depend on the assumption of a preshared key. In practical settings, these methods face various challenges, including key agreement, key updating, and user expansion. Although public-key steganography provides a viable solution, existing public-key steganography approaches are burdened with inefficiency and complex implementation in practical scenarios. In this paper, we proposes a practical public-key steganography method based on elliptic curve cryptography and a generative model. This method is the first comprehensive and practical approach to public-key steganography and steganographic key exchange. Additionally, we provide a specific instance to illustrate the proposed method. The security of the proposed construction is also proven based on computational complexity theory. Further experiments have demonstrated the security and efficiency of the proposed method.</p>
+    <p class="pub-abstract">Steganography embeds confidential data within seemingly harmless communications. Provable security in steganography, a long-sought goal, has become feasible with deep generative models. However, current methods often either compromise security or introduce significant computational complexity, failing to provide secure and efficient covert communication. This paper introduces SparSamp, an efficient provably secure steganography method based on sparse sampling. SparSamp embeds messages by converting them into message-driven sampling. It enhances extraction accuracy and embedding capacity by increasing the sampling intervals and making the sampling process sparse. SparSamp preserves the original probability distribution of the generative model, thus ensuring security. It introduces only $O(1)$ additional complexity per sampling step, which does not impact the speed of model generation, resulting in the fastest embedding speed available. SparSamp is designed to be plug-and-play; message embedding can be achieved by simply replacing the sampling component of an existing generative model with SparSamp. We implemented SparSamp in text, image, and audio generation models. It can achieve embedding speeds of up to 755 bits/second with GPT-2, 5046 bits/second with DDPM, and 9,223 bits/second with WaveRNN, enabling secure covert communication.</p>
     
 
     
@@ -938,8 +897,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#2">
-              2
+            <a href="/publication/#1">
+              1
             </a>
           </div>
         </div>
@@ -955,7 +914,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206" target="_blank" rel="noopener">IEEE Transactions on Information Forensics and Security</a> 2024</em></div>
+          <div class="col-12 col-md-9">In <a href="https://www.usenix.org/conference/usenixsecurity25" target="_blank" rel="noopener"><em>USENIX Security Symposium 2025</em></a></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -996,7 +955,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Ftifs24_eccstega%2F&amp;text=Provably&#43;Secure&#43;Public-Key&#43;Steganography&#43;Based&#43;on&#43;Elliptic&#43;Curve&#43;Cryptography" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fsec25_sparsamp%2F&amp;text=SparSamp%3A&#43;Efficient&#43;Provably&#43;Secure&#43;Steganography&#43;Based&#43;on&#43;Sparse&#43;Sampling" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1013,7 +972,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Ftifs24_eccstega%2F&amp;t=Provably&#43;Secure&#43;Public-Key&#43;Steganography&#43;Based&#43;on&#43;Elliptic&#43;Curve&#43;Cryptography" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fsec25_sparsamp%2F&amp;t=SparSamp%3A&#43;Efficient&#43;Provably&#43;Secure&#43;Steganography&#43;Based&#43;on&#43;Sparse&#43;Sampling" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1032,7 +991,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Provably%20Secure%20Public-Key%20Steganography%20Based%20on%20Elliptic%20Curve%20Cryptography&amp;body=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Ftifs24_eccstega%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=SparSamp%3A%20Efficient%20Provably%20Secure%20Steganography%20Based%20on%20Sparse%20Sampling&amp;body=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fsec25_sparsamp%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1049,7 +1008,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Ftifs24_eccstega%2F&amp;title=Provably&#43;Secure&#43;Public-Key&#43;Steganography&#43;Based&#43;on&#43;Elliptic&#43;Curve&#43;Cryptography" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fsec25_sparsamp%2F&amp;title=SparSamp%3A&#43;Efficient&#43;Provably&#43;Secure&#43;Steganography&#43;Based&#43;on&#43;Sparse&#43;Sampling" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1066,7 +1025,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Provably&#43;Secure&#43;Public-Key&#43;Steganography&#43;Based&#43;on&#43;Elliptic&#43;Curve&#43;Cryptography%20https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Ftifs24_eccstega%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=SparSamp%3A&#43;Efficient&#43;Provably&#43;Secure&#43;Steganography&#43;Based&#43;on&#43;Sparse&#43;Sampling%20https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fsec25_sparsamp%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1083,7 +1042,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Ftifs24_eccstega%2F&amp;title=Provably&#43;Secure&#43;Public-Key&#43;Steganography&#43;Based&#43;on&#43;Elliptic&#43;Curve&#43;Cryptography" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fsec25_sparsamp%2F&amp;title=SparSamp%3A&#43;Efficient&#43;Provably&#43;Secure&#43;Steganography&#43;Based&#43;on&#43;Sparse&#43;Sampling" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1116,8 +1075,8 @@
     
 
     <div class="media-body">
-      <h5 class="card-title">Xin Zhang</h5>
-      <h6 class="card-subtitle">Ph.D. Student, University of Science and Technology of China</h6>
+      <h5 class="card-title">Yaofei Wang</h5>
+      <h6 class="card-subtitle">Associate Professor, Hefei University of Technology</h6>
       
       <ul class="network-icon" aria-hidden="true">
   
@@ -1131,7 +1090,79 @@
     
     
     <li>
-      <a href="mailto:XinZhang1999@mail.ustc.edu.cn" >
+      <a href="mailto:wyf@hfut.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="http://faculty.hfut.edu.cn/yaofeiwang/en/index.htm" target="_blank" rel="noopener">
+        <i class="fas fa-house"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=ftNibI8AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title">Gang Pei</h5>
+      <h6 class="card-subtitle">Master&rsquo;s Student, Hefei University of Technology</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:pg@mail.hfut.edu.cn" >
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -1367,8 +1398,8 @@
     
 
     <div class="media-body">
-      <h5 class="card-title">Yuqi Yang</h5>
-      <h6 class="card-subtitle">Undergraduate Student, University of Science and Technology of China</h6>
+      <h5 class="card-title">Chao Pan</h5>
+      <h6 class="card-subtitle">Ph.D. Student, Hefei University of Technology</h6>
       
       <ul class="network-icon" aria-hidden="true">
   
@@ -1382,8 +1413,80 @@
     
     
     <li>
-      <a href="mailto:yyq2020@mail.ustc.edu.cn" >
+      <a href="mailto:panchao@mail.hfut.edu.cn" >
         <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title">Donghui Hu</h5>
+      <h6 class="card-subtitle">Full Professor, Hefei University of Technology</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:hudh@hfut.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://faculty.hfut.edu.cn/hudonghui/en/index.htm" target="_blank" rel="noopener">
+        <i class="fas fa-house"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=4BeJ_84AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
       </a>
     </li>
   
@@ -1455,78 +1558,6 @@
     
     <li>
       <a href="https://scholar.google.com/citations?user=eTCfl6cAAAAJ" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-</ul>
-
-    </div>
-  </div>
-
-
-  
-    
-
-
-
-  
-  
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-
-    <div class="media-body">
-      <h5 class="card-title">Nenghai Yu</h5>
-      <h6 class="card-subtitle">Full Professor, University of Science and Technology of China</h6>
-      
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <a href="mailto:ynh@ustc.edu.cn" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="http://staff.ustc.edu.cn/~ynh/" target="_blank" rel="noopener">
-        <i class="fas fa-house"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.com/citations?user=7620QAMAAAAJ" target="_blank" rel="noopener">
         <i class="ai ai-google-scholar"></i>
       </a>
     </li>
