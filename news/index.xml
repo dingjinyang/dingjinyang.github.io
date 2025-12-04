@@ -5,12 +5,21 @@
     <link>https://dingjinyang.github.io/news/</link>
       <atom:link href="https://dingjinyang.github.io/news/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Thu, 23 Jan 2025 09:00:11 +0800</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Thu, 04 Dec 2025 09:00:11 +0800</lastBuildDate>
     <image>
       <url>https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png</url>
       <title>News</title>
       <link>https://dingjinyang.github.io/news/</link>
     </image>
+    
+    <item>
+      <title>One work on Provably Secure Steganography got accepted by NDSS 2026!</title>
+      <link>https://dingjinyang.github.io/news/ndss26/</link>
+      <pubDate>Thu, 04 Dec 2025 09:00:11 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/news/ndss26/</guid>
+      <description>&lt;p&gt;Keep fighting!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>One work on Provably Secure Steganography got accepted by USENIX Security 2025!</title>

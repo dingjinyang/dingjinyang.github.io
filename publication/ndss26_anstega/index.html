@@ -280,12 +280,12 @@
 
   
 
-<meta name="description" content="Steganography is the technique of hiding secret messages within seemingly harmless covers to elude examination by censors. Despite having been proposed several decades ago, provably secure steganography has not gained popularity among researchers due to its rigorous data requirements. Recent advancements in generative models have enabled these researchers to provide explicit data distributions, which has contributed to the development of provably secure steganography methods. However, these methods depend on the assumption of a preshared key. In practical settings, these methods face various challenges, including key agreement, key updating, and user expansion. Although public-key steganography provides a viable solution, existing public-key steganography approaches are burdened with inefficiency and complex implementation in practical scenarios. In this paper, we proposes a practical public-key steganography method based on elliptic curve cryptography and a generative model. This method is the first comprehensive and practical approach to public-key steganography and steganographic key exchange. Additionally, we provide a specific instance to illustrate the proposed method. The security of the proposed construction is also proven based on computational complexity theory. Further experiments have demonstrated the security and efficiency of the proposed method." />
+<meta name="description" content="Generative steganography shows immense promise for covert communication, yet existing methods are often constrained by a trilemma of capacity, efficiency, and security. Methods based on Huffman Coding (HC) suffer from poor efficiency and security, while those based on Arithmetic Coding (AC), despite achieving optimal capacity, also pose security risks. Although recent provably secure methods have addressed the security issue, they often do so at the cost of elevated embedding complexity or diminished capacity—failing to match the high capacity exhibited by AC-based methods. To address this trilemma, we adapt Asymmetric Numeral Systems (ANS) for steganography. Our core insight is to repurpose the ANS state machine, using its decoding function for embedding and its encoding function for extraction. To translate this concept into a practical system, we introduce several key innovations. First, we incorporate a streaming architecture with state renormalization to enable the stable embedding of arbitrarily long messages. Second, we employ direct floating-point arithmetic, avoiding costly probability-to-frequency conversions to reduce complexity and precision loss. More critically, we introduce an innovative cryptographic mask mechanism that ensures the sampling process is driven by a cryptographically secure pseudo-random number generator, thereby achieving provable security. Finally, by optimizing core computations into highly efficient bitwise shift operations, ANStega achieves exceptional embedding and extraction speeds. Experimental results validate that ANStega simultaneously achieves optimal embedding capacity, optimal efficiency (embedding complexity with $O(1)$) and optimal security, successfully resolving the long-standing trilemma in generative steganography." />
 
 
 
-<link rel="alternate" hreflang="en" href="https://dingjinyang.github.io/publication/tifs24_eccstega/" />
-<link rel="canonical" href="https://dingjinyang.github.io/publication/tifs24_eccstega/" />
+<link rel="alternate" hreflang="en" href="https://dingjinyang.github.io/publication/ndss26_anstega/" />
+<link rel="canonical" href="https://dingjinyang.github.io/publication/ndss26_anstega/" />
 
 
 
@@ -324,18 +324,18 @@
 
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="Jinyang Ding" />
-<meta property="og:url" content="https://dingjinyang.github.io/publication/tifs24_eccstega/" />
-<meta property="og:title" content="Provably Secure Public-Key Steganography Based on Elliptic Curve Cryptography | Jinyang Ding" />
-<meta property="og:description" content="Steganography is the technique of hiding secret messages within seemingly harmless covers to elude examination by censors. Despite having been proposed several decades ago, provably secure steganography has not gained popularity among researchers due to its rigorous data requirements. Recent advancements in generative models have enabled these researchers to provide explicit data distributions, which has contributed to the development of provably secure steganography methods. However, these methods depend on the assumption of a preshared key. In practical settings, these methods face various challenges, including key agreement, key updating, and user expansion. Although public-key steganography provides a viable solution, existing public-key steganography approaches are burdened with inefficiency and complex implementation in practical scenarios. In this paper, we proposes a practical public-key steganography method based on elliptic curve cryptography and a generative model. This method is the first comprehensive and practical approach to public-key steganography and steganographic key exchange. Additionally, we provide a specific instance to illustrate the proposed method. The security of the proposed construction is also proven based on computational complexity theory. Further experiments have demonstrated the security and efficiency of the proposed method." /><meta property="og:image" content="https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en" />
+<meta property="og:url" content="https://dingjinyang.github.io/publication/ndss26_anstega/" />
+<meta property="og:title" content="Breaking the Generative Steganography Trilemma: ANStega for Optimal Capacity, Efficiency, and Security | Jinyang Ding" />
+<meta property="og:description" content="Generative steganography shows immense promise for covert communication, yet existing methods are often constrained by a trilemma of capacity, efficiency, and security. Methods based on Huffman Coding (HC) suffer from poor efficiency and security, while those based on Arithmetic Coding (AC), despite achieving optimal capacity, also pose security risks. Although recent provably secure methods have addressed the security issue, they often do so at the cost of elevated embedding complexity or diminished capacity—failing to match the high capacity exhibited by AC-based methods. To address this trilemma, we adapt Asymmetric Numeral Systems (ANS) for steganography. Our core insight is to repurpose the ANS state machine, using its decoding function for embedding and its encoding function for extraction. To translate this concept into a practical system, we introduce several key innovations. First, we incorporate a streaming architecture with state renormalization to enable the stable embedding of arbitrarily long messages. Second, we employ direct floating-point arithmetic, avoiding costly probability-to-frequency conversions to reduce complexity and precision loss. More critically, we introduce an innovative cryptographic mask mechanism that ensures the sampling process is driven by a cryptographically secure pseudo-random number generator, thereby achieving provable security. Finally, by optimizing core computations into highly efficient bitwise shift operations, ANStega achieves exceptional embedding and extraction speeds. Experimental results validate that ANStega simultaneously achieves optimal embedding capacity, optimal efficiency (embedding complexity with $O(1)$) and optimal security, successfully resolving the long-standing trilemma in generative steganography." /><meta property="og:image" content="https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en" />
 
   
     <meta
       property="article:published_time"
-      content="2024-02-07T12:00:00&#43;08:00"
+      content="2025-12-04T09:00:00&#43;08:00"
     />
   
   
-    <meta property="article:modified_time" content="2024-02-07T12:00:00&#43;08:00">
+    <meta property="article:modified_time" content="2025-12-04T09:00:00&#43;08:00">
   
 
 
@@ -359,16 +359,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://dingjinyang.github.io/publication/tifs24_eccstega/"
+    "@id": "https://dingjinyang.github.io/publication/ndss26_anstega/"
   },
-  "headline": "Provably Secure Public-Key Steganography Based on Elliptic Curve Cryptography",
+  "headline": "Breaking the Generative Steganography Trilemma: ANStega for Optimal Capacity, Efficiency, and Security",
   
-  "datePublished": "2024-02-07T12:00:00+08:00",
-  "dateModified": "2024-02-07T12:00:00+08:00",
+  "datePublished": "2025-12-04T09:00:00+08:00",
+  "dateModified": "2025-12-04T09:00:00+08:00",
   
   "author": {
     "@type": "Person",
-    "name": "Xin Zhang"
+    "name": "Yaofei Wang"
   },
   
   "publisher": {
@@ -379,7 +379,7 @@
       "url": "https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Steganography is the technique of hiding secret messages within seemingly harmless covers to elude examination by censors. Despite having been proposed several decades ago, provably secure steganography has not gained popularity among researchers due to its rigorous data requirements. Recent advancements in generative models have enabled these researchers to provide explicit data distributions, which has contributed to the development of provably secure steganography methods. However, these methods depend on the assumption of a preshared key. In practical settings, these methods face various challenges, including key agreement, key updating, and user expansion. Although public-key steganography provides a viable solution, existing public-key steganography approaches are burdened with inefficiency and complex implementation in practical scenarios. In this paper, we proposes a practical public-key steganography method based on elliptic curve cryptography and a generative model. This method is the first comprehensive and practical approach to public-key steganography and steganographic key exchange. Additionally, we provide a specific instance to illustrate the proposed method. The security of the proposed construction is also proven based on computational complexity theory. Further experiments have demonstrated the security and efficiency of the proposed method."
+  "description": "Generative steganography shows immense promise for covert communication, yet existing methods are often constrained by a trilemma of capacity, efficiency, and security. Methods based on Huffman Coding (HC) suffer from poor efficiency and security, while those based on Arithmetic Coding (AC), despite achieving optimal capacity, also pose security risks. Although recent provably secure methods have addressed the security issue, they often do so at the cost of elevated embedding complexity or diminished capacity—failing to match the high capacity exhibited by AC-based methods. To address this trilemma, we adapt Asymmetric Numeral Systems (ANS) for steganography. Our core insight is to repurpose the ANS state machine, using its decoding function for embedding and its encoding function for extraction. To translate this concept into a practical system, we introduce several key innovations. First, we incorporate a streaming architecture with state renormalization to enable the stable embedding of arbitrarily long messages. Second, we employ direct floating-point arithmetic, avoiding costly probability-to-frequency conversions to reduce complexity and precision loss. More critically, we introduce an innovative cryptographic mask mechanism that ensures the sampling process is driven by a cryptographically secure pseudo-random number generator, thereby achieving provable security. Finally, by optimizing core computations into highly efficient bitwise shift operations, ANStega achieves exceptional embedding and extraction speeds. Experimental results validate that ANStega simultaneously achieves optimal embedding capacity, optimal efficiency (embedding complexity with $O(1)$) and optimal security, successfully resolving the long-standing trilemma in generative steganography."
 }
 </script>
 
@@ -401,7 +401,7 @@
 
 
   
-  <title>Provably Secure Public-Key Steganography Based on Elliptic Curve Cryptography | Jinyang Ding</title>
+  <title>Breaking the Generative Steganography Trilemma: ANStega for Optimal Capacity, Efficiency, and Security | Jinyang Ding</title>
 
   
   
@@ -421,7 +421,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3e2fdc505412582a7748addf59bc3c93" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="8c7bbfaedaa44d2bae03830646c9e2cc" >
 
   
   
@@ -818,7 +818,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Provably Secure Public-Key Steganography Based on Elliptic Curve Cryptography</h1>
+  <h1>Breaking the Generative Steganography Trilemma: ANStega for Optimal Capacity, Efficiency, and Security</h1>
 
   
 
@@ -836,11 +836,12 @@
     
 
   <span >
-      Xin Zhang</span>, <span >
+      Yaofei Wang</span>, <span >
+      Weilong Pang</span>, <span >
       Kejiang Chen</span>, <span class="author-highlighted">
       Jinyang Ding</span>, <span >
-      Yuqi Yang</span>, <span >
       Weiming Zhang</span>, <span >
+      Donghui Hu</span>, <span >
       Nenghai Yu</span>
   </div>
   
@@ -852,7 +853,7 @@
     
       
     
-    February, 2024
+    December, 2025
   </span>
   
 
@@ -893,7 +894,7 @@
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/tifs24_eccstega/cite.bib">
+        data-filename="/publication/ndss26_anstega/cite.bib">
   Cite
 </a>
 
@@ -909,10 +910,6 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1109/TIFS.2024.3361219" target="_blank" rel="noopener">
-  DOI
-</a>
-
 
 
 </div>
@@ -927,7 +924,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Steganography is the technique of hiding secret messages within seemingly harmless covers to elude examination by censors. Despite having been proposed several decades ago, provably secure steganography has not gained popularity among researchers due to its rigorous data requirements. Recent advancements in generative models have enabled these researchers to provide explicit data distributions, which has contributed to the development of provably secure steganography methods. However, these methods depend on the assumption of a preshared key. In practical settings, these methods face various challenges, including key agreement, key updating, and user expansion. Although public-key steganography provides a viable solution, existing public-key steganography approaches are burdened with inefficiency and complex implementation in practical scenarios. In this paper, we proposes a practical public-key steganography method based on elliptic curve cryptography and a generative model. This method is the first comprehensive and practical approach to public-key steganography and steganographic key exchange. Additionally, we provide a specific instance to illustrate the proposed method. The security of the proposed construction is also proven based on computational complexity theory. Further experiments have demonstrated the security and efficiency of the proposed method.</p>
+    <p class="pub-abstract">Generative steganography shows immense promise for covert communication, yet existing methods are often constrained by a trilemma of capacity, efficiency, and security. Methods based on Huffman Coding (HC) suffer from poor efficiency and security, while those based on Arithmetic Coding (AC), despite achieving optimal capacity, also pose security risks. Although recent provably secure methods have addressed the security issue, they often do so at the cost of elevated embedding complexity or diminished capacity—failing to match the high capacity exhibited by AC-based methods. To address this trilemma, we adapt Asymmetric Numeral Systems (ANS) for steganography. Our core insight is to repurpose the ANS state machine, using its decoding function for embedding and its encoding function for extraction. To translate this concept into a practical system, we introduce several key innovations. First, we incorporate a streaming architecture with state renormalization to enable the stable embedding of arbitrarily long messages. Second, we employ direct floating-point arithmetic, avoiding costly probability-to-frequency conversions to reduce complexity and precision loss. More critically, we introduce an innovative cryptographic mask mechanism that ensures the sampling process is driven by a cryptographically secure pseudo-random number generator, thereby achieving provable security. Finally, by optimizing core computations into highly efficient bitwise shift operations, ANStega achieves exceptional embedding and extraction speeds. Experimental results validate that ANStega simultaneously achieves optimal embedding capacity, optimal efficiency (embedding complexity with $O(1)$) and optimal security, successfully resolving the long-standing trilemma in generative steganography.</p>
     
 
     
@@ -938,8 +935,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#2">
-              2
+            <a href="/publication/#1">
+              1
             </a>
           </div>
         </div>
@@ -955,7 +952,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206" target="_blank" rel="noopener">IEEE Transactions on Information Forensics and Security</a> 2024</em></div>
+          <div class="col-12 col-md-9">To appear in <a href="https://www.ndss-symposium.org/ndss2026/" target="_blank" rel="noopener"><em>NDSS Symposium 2026</em></a></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -996,7 +993,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Ftifs24_eccstega%2F&amp;text=Provably&#43;Secure&#43;Public-Key&#43;Steganography&#43;Based&#43;on&#43;Elliptic&#43;Curve&#43;Cryptography" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fndss26_anstega%2F&amp;text=Breaking&#43;the&#43;Generative&#43;Steganography&#43;Trilemma%3A&#43;ANStega&#43;for&#43;Optimal&#43;Capacity%2C&#43;Efficiency%2C&#43;and&#43;Security" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1013,7 +1010,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Ftifs24_eccstega%2F&amp;t=Provably&#43;Secure&#43;Public-Key&#43;Steganography&#43;Based&#43;on&#43;Elliptic&#43;Curve&#43;Cryptography" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fndss26_anstega%2F&amp;t=Breaking&#43;the&#43;Generative&#43;Steganography&#43;Trilemma%3A&#43;ANStega&#43;for&#43;Optimal&#43;Capacity%2C&#43;Efficiency%2C&#43;and&#43;Security" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1032,7 +1029,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Provably%20Secure%20Public-Key%20Steganography%20Based%20on%20Elliptic%20Curve%20Cryptography&amp;body=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Ftifs24_eccstega%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Breaking%20the%20Generative%20Steganography%20Trilemma%3A%20ANStega%20for%20Optimal%20Capacity%2C%20Efficiency%2C%20and%20Security&amp;body=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fndss26_anstega%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1049,7 +1046,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Ftifs24_eccstega%2F&amp;title=Provably&#43;Secure&#43;Public-Key&#43;Steganography&#43;Based&#43;on&#43;Elliptic&#43;Curve&#43;Cryptography" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fndss26_anstega%2F&amp;title=Breaking&#43;the&#43;Generative&#43;Steganography&#43;Trilemma%3A&#43;ANStega&#43;for&#43;Optimal&#43;Capacity%2C&#43;Efficiency%2C&#43;and&#43;Security" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1066,7 +1063,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Provably&#43;Secure&#43;Public-Key&#43;Steganography&#43;Based&#43;on&#43;Elliptic&#43;Curve&#43;Cryptography%20https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Ftifs24_eccstega%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Breaking&#43;the&#43;Generative&#43;Steganography&#43;Trilemma%3A&#43;ANStega&#43;for&#43;Optimal&#43;Capacity%2C&#43;Efficiency%2C&#43;and&#43;Security%20https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fndss26_anstega%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1083,7 +1080,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Ftifs24_eccstega%2F&amp;title=Provably&#43;Secure&#43;Public-Key&#43;Steganography&#43;Based&#43;on&#43;Elliptic&#43;Curve&#43;Cryptography" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fndss26_anstega%2F&amp;title=Breaking&#43;the&#43;Generative&#43;Steganography&#43;Trilemma%3A&#43;ANStega&#43;for&#43;Optimal&#43;Capacity%2C&#43;Efficiency%2C&#43;and&#43;Security" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1116,8 +1113,8 @@
     
 
     <div class="media-body">
-      <h5 class="card-title">Xin Zhang</h5>
-      <h6 class="card-subtitle">Ph.D. Student, University of Science and Technology of China</h6>
+      <h5 class="card-title">Yaofei Wang</h5>
+      <h6 class="card-subtitle">Associate Professor, Hefei University of Technology</h6>
       
       <ul class="network-icon" aria-hidden="true">
   
@@ -1131,7 +1128,79 @@
     
     
     <li>
-      <a href="mailto:XinZhang1999@mail.ustc.edu.cn" >
+      <a href="mailto:wyf@hfut.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="http://faculty.hfut.edu.cn/yaofeiwang/en/index.htm" target="_blank" rel="noopener">
+        <i class="fas fa-house"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=ftNibI8AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title">Weilong Pang</h5>
+      <h6 class="card-subtitle">Master&rsquo;s Student, Hefei University of Technology</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:pangwl@mail.hfut.edu.cn" >
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -1367,46 +1436,6 @@
     
 
     <div class="media-body">
-      <h5 class="card-title">Yuqi Yang</h5>
-      <h6 class="card-subtitle">Undergraduate Student, University of Science and Technology of China</h6>
-      
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <a href="mailto:yyq2020@mail.ustc.edu.cn" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-</ul>
-
-    </div>
-  </div>
-
-
-  
-    
-
-
-
-  
-  
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-
-    <div class="media-body">
       <h5 class="card-title">Weiming Zhang</h5>
       <h6 class="card-subtitle">Full Professor, University of Science and Technology of China</h6>
       
@@ -1455,6 +1484,78 @@
     
     <li>
       <a href="https://scholar.google.com/citations?user=eTCfl6cAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title">Donghui Hu</h5>
+      <h6 class="card-subtitle">Full Professor, Hefei University of Technology</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:hudh@hfut.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://faculty.hfut.edu.cn/hudonghui/en/index.htm" target="_blank" rel="noopener">
+        <i class="fas fa-house"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=4BeJ_84AAAAJ" target="_blank" rel="noopener">
         <i class="ai ai-google-scholar"></i>
       </a>
     </li>

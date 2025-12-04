@@ -5,12 +5,20 @@
     <link>https://dingjinyang.github.io/tag/information-hiding/</link>
       <atom:link href="https://dingjinyang.github.io/tag/information-hiding/index.xml" rel="self" type="application/rss+xml" />
     <description>Information Hiding</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Thu, 23 Jan 2025 21:27:38 +0800</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Thu, 04 Dec 2025 09:00:00 +0800</lastBuildDate>
     <image>
       <url>https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png</url>
       <title>Information Hiding</title>
       <link>https://dingjinyang.github.io/tag/information-hiding/</link>
     </image>
+    
+    <item>
+      <title>Breaking the Generative Steganography Trilemma: ANStega for Optimal Capacity, Efficiency, and Security</title>
+      <link>https://dingjinyang.github.io/publication/ndss26_anstega/</link>
+      <pubDate>Thu, 04 Dec 2025 09:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/publication/ndss26_anstega/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SparSamp: Efficient Provably Secure Steganography Based on Sparse Sampling</title>
