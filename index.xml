@@ -5,12 +5,21 @@
     <link>https://dingjinyang.github.io/</link>
       <atom:link href="https://dingjinyang.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinyang Ding</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Thu, 04 Dec 2025 09:00:11 +0800</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Tue, 30 Dec 2025 14:15:00 +0800</lastBuildDate>
     <image>
       <url>https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png</url>
       <title>Jinyang Ding</title>
       <link>https://dingjinyang.github.io/</link>
     </image>
+    
+    <item>
+      <title>My publications have been cited 💯 times, according to Google Scholar.</title>
+      <link>https://dingjinyang.github.io/news/100-citations/</link>
+      <pubDate>Tue, 30 Dec 2025 14:15:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/news/100-citations/</guid>
+      <description>&lt;p&gt;Keep fighting!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>One work on Provably Secure Steganography got accepted by NDSS 2026!</title>
@@ -27,6 +36,15 @@
       <pubDate>Thu, 04 Dec 2025 09:00:00 +0800</pubDate>
       <guid>https://dingjinyang.github.io/publication/ndss26_anstega/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>We won the Main Track Grand Prize and the Dreame “Dream Pursuit” Award at Huickathon (Anhui Hackathon) Season 2 (¥13,000)!</title>
+      <link>https://dingjinyang.github.io/news/huickthon-s2/</link>
+      <pubDate>Sun, 26 Oct 2025 16:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/news/huickthon-s2/</guid>
+      <description>&lt;p&gt;Keep fighting!&lt;/p&gt;
+</description>
     </item>
     
     <item>
