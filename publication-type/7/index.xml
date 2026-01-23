@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 | Jinyang Ding</title>
+    <link>https://dingjinyang.github.io/publication-type/7/</link>
+      <atom:link href="https://dingjinyang.github.io/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
+    <description>7</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Wed, 05 Jun 2024 12:00:00 +0800</lastBuildDate>
+    <image>
+      <url>https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png</url>
+      <title>7</title>
+      <link>https://dingjinyang.github.io/publication-type/7/</link>
+    </image>
+    
+    <item>
+      <title>Provably Secure Generative Linguistic Steganography and Its Applications</title>
+      <link>https://dingjinyang.github.io/publication/ustc_thesis/</link>
+      <pubDate>Wed, 05 Jun 2024 12:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/publication/ustc_thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

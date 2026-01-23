@@ -5,7 +5,7 @@
     <link>https://dingjinyang.github.io/publication/</link>
       <atom:link href="https://dingjinyang.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Thu, 04 Dec 2025 09:00:00 +0800</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Thu, 19 Mar 2026 09:00:00 +0800</lastBuildDate>
     <image>
       <url>https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Breaking the Generative Steganography Trilemma: ANStega for Optimal Capacity, Efficiency, and Security</title>
       <link>https://dingjinyang.github.io/publication/ndss26_anstega/</link>
-      <pubDate>Thu, 04 Dec 2025 09:00:00 +0800</pubDate>
+      <pubDate>Thu, 19 Mar 2026 09:00:00 +0800</pubDate>
       <guid>https://dingjinyang.github.io/publication/ndss26_anstega/</guid>
       <description></description>
     </item>
@@ -28,6 +28,14 @@
       <description>&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/wTZCh_nKM2qqw7ZrmSdljA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hermit Union (隐者联盟): SparSamp: Efficient Provably Secure Steganography Based on Sparse Sampling (in Chinese) - WeChat&lt;/a&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Provably Secure Generative Linguistic Steganography and Its Applications</title>
+      <link>https://dingjinyang.github.io/publication/ustc_thesis/</link>
+      <pubDate>Wed, 05 Jun 2024 12:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/publication/ustc_thesis/</guid>
+      <description></description>
     </item>
     
     <item>
