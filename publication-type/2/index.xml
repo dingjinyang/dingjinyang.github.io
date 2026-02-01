@@ -5,12 +5,20 @@
     <link>https://dingjinyang.github.io/publication-type/2/</link>
       <atom:link href="https://dingjinyang.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Wed, 07 Feb 2024 12:00:00 +0800</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 04 Jan 2026 06:15:00 +0800</lastBuildDate>
     <image>
       <url>https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
       <link>https://dingjinyang.github.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Side-Information Estimated Steganography via Dual-Path Super-Resolution Reconstruction</title>
+      <link>https://dingjinyang.github.io/publication/tdsc26_sie/</link>
+      <pubDate>Sun, 04 Jan 2026 06:15:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/publication/tdsc26_sie/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Provably Secure Public-Key Steganography Based on Elliptic Curve Cryptography</title>
