@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 21, 2026 --><html lang="en" >
+<!-- Last Published: July 9, 2026 --><html lang="en-us" >
 
 
 <head>
@@ -284,7 +284,9 @@
 
 
 
-<link rel="alternate" hreflang="en" href="https://dingjinyang.github.io/publication/sp23_discop/" />
+  <link rel="alternate" hreflang="zh" href="https://dingjinyang.github.io/zh/publication/sp23_discop/" />
+
+<link rel="alternate" hreflang="en-us" href="https://dingjinyang.github.io/publication/sp23_discop/" />
 <link rel="canonical" href="https://dingjinyang.github.io/publication/sp23_discop/" />
 
 
@@ -326,7 +328,7 @@
 <meta property="og:site_name" content="Jinyang Ding" />
 <meta property="og:url" content="https://dingjinyang.github.io/publication/sp23_discop/" />
 <meta property="og:title" content="Discop: Provably Secure Steganography in Practice Based on “Distribution Copies” | Jinyang Ding" />
-<meta property="og:description" content="Steganography is the act of disguising the transmission of secret information as seemingly innocent. Although provably secure steganography has been proposed for decades, it has not been mainstream in this field because its strict requirements (such as a perfect sampler and an explicit data distribution) are challenging to satisfy in traditional data environments. The popularity of deep generative models is gradually increasing and can provide an excellent opportunity to solve this problem. Several methods attempting to achieve provably secure steganography based on deep generative models have been proposed in recent years. However, they cannot achieve the expected security in practice due to unrealistic conditions, such as the balanced grouping of discrete elements and a perfect match between the message and channel distributions. In this paper, we propose a new provably secure steganography method in practice named Discop, which constructs several &#34;distribution copies&#34; during the generation process. At each time step of generation, the message determines from which &#34;distribution copy&#34; to sample. As long as the receiver agrees on some shared information with the sender, he can extract the message without error. To further improve the embedding rate, we recursively construct more &#34;distribution copies&#34; by creating Huffman trees. We prove that Discop can strictly maintain the original distribution so that the adversary cannot perform better than random guessing. Moreover, we conduct experiments on multiple generation tasks for diverse digital media, and the results show that Discop&#39;s security and efficiency outperform those of previous methods." /><meta property="og:image" content="https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en" />
+<meta property="og:description" content="Steganography is the act of disguising the transmission of secret information as seemingly innocent. Although provably secure steganography has been proposed for decades, it has not been mainstream in this field because its strict requirements (such as a perfect sampler and an explicit data distribution) are challenging to satisfy in traditional data environments. The popularity of deep generative models is gradually increasing and can provide an excellent opportunity to solve this problem. Several methods attempting to achieve provably secure steganography based on deep generative models have been proposed in recent years. However, they cannot achieve the expected security in practice due to unrealistic conditions, such as the balanced grouping of discrete elements and a perfect match between the message and channel distributions. In this paper, we propose a new provably secure steganography method in practice named Discop, which constructs several &#34;distribution copies&#34; during the generation process. At each time step of generation, the message determines from which &#34;distribution copy&#34; to sample. As long as the receiver agrees on some shared information with the sender, he can extract the message without error. To further improve the embedding rate, we recursively construct more &#34;distribution copies&#34; by creating Huffman trees. We prove that Discop can strictly maintain the original distribution so that the adversary cannot perform better than random guessing. Moreover, we conduct experiments on multiple generation tasks for diverse digital media, and the results show that Discop&#39;s security and efficiency outperform those of previous methods." /><meta property="og:image" content="https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -771,6 +773,22 @@
         
 
         
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+             aria-haspopup="true" aria-label="Languages">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">English</span></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>English</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://dingjinyang.github.io/zh/publication/sp23_discop/">
+              <span>中文 (简体)</span>
+            </a>
+            
+          </div>
+        </li>
         
 
       </ul>
@@ -1665,6 +1683,26 @@
       <div class="page-footer">
   <div class="container">
     <footer class="site-footer">
+      <style>
+        @media (min-width: 992px) {
+          .i18n-dropdown .nav-link span.d-none.d-lg-inline {
+            display: none !important;
+          }
+
+          .i18n-dropdown .nav-link .fa-globe {
+            margin-right: 0 !important;
+          }
+
+          .i18n-dropdown .dropdown-toggle::after {
+            display: none;
+          }
+
+          .theme-dropdown .dropdown-menu,
+          .i18n-dropdown .dropdown-menu {
+            margin-top: 0;
+          }
+        }
+      </style>
       <script
         type="text/javascript"
         id="clustrmaps"
@@ -1672,13 +1710,99 @@
       ></script>
       <br />
       <p class="powered-by copyright-license-text">
-        © 2025 Jinyang Ding · Powered by
-        <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener"
-          >Wowchemy</a
-        >
-        for
-        <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
+        
+          © 2026 Jinyang Ding · Powered by
+          <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">Wowchemy</a>
+          for
+          <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
+        
       </p>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var desktopMedia = window.matchMedia("(min-width: 992px)");
+
+          function dropdownParts(dropdown) {
+            return {
+              toggle: dropdown.querySelector(":scope > .nav-link"),
+              menu: dropdown.querySelector(":scope > .dropdown-menu"),
+            };
+          }
+
+          function setDropdownState(dropdown, open) {
+            var parts = dropdownParts(dropdown);
+            if (!parts.toggle || !parts.menu) return;
+
+            dropdown.classList.toggle("show", open);
+            parts.menu.classList.toggle("show", open);
+            parts.toggle.setAttribute("aria-expanded", open ? "true" : "false");
+          }
+
+          function closeHeaderDropdowns(except) {
+            document
+              .querySelectorAll(".theme-dropdown, .i18n-dropdown")
+              .forEach(function (dropdown) {
+                if (dropdown !== except) {
+                  setDropdownState(dropdown, false);
+                }
+              });
+          }
+
+          document
+            .querySelectorAll(".theme-dropdown, .i18n-dropdown")
+            .forEach(function (dropdown) {
+              var parts = dropdownParts(dropdown);
+              if (!parts.toggle || !parts.menu) return;
+
+              parts.toggle.addEventListener("click", function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+
+                var willOpen = !dropdown.classList.contains("show");
+                closeHeaderDropdowns(dropdown);
+                setDropdownState(dropdown, willOpen);
+              });
+
+              dropdown.addEventListener("mouseenter", function () {
+                if (!desktopMedia.matches) return;
+                closeHeaderDropdowns(dropdown);
+                setDropdownState(dropdown, true);
+              });
+
+              dropdown.addEventListener("mouseleave", function () {
+                if (!desktopMedia.matches) return;
+                setDropdownState(dropdown, false);
+              });
+
+              parts.menu.addEventListener("click", function (event) {
+                event.stopPropagation();
+              });
+            });
+
+          document.addEventListener("click", function () {
+            closeHeaderDropdowns();
+          });
+
+          document
+            .querySelectorAll(".i18n-dropdown span")
+            .forEach(function (node) {
+              if (node.textContent.trim() === "中文 (简体)") {
+                node.textContent = "中文";
+              }
+            });
+
+          if (document.documentElement.lang !== "zh-cn") return;
+
+          document.querySelectorAll(".js-cite-modal").forEach(function (button) {
+            var filename = button.getAttribute("data-filename");
+            if (!filename) return;
+
+            button.setAttribute(
+              "data-filename",
+              filename.replace(/^\/zh\/publication\//, "/publication/")
+            );
+          });
+        });
+      </script>
       <br />
     </footer>
   </div>

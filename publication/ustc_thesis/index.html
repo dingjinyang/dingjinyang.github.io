@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 21, 2026 --><html lang="en" >
+<!-- Last Published: July 9, 2026 --><html lang="en-us" >
 
 
 <head>
@@ -302,7 +302,9 @@ information hiding; steganography; provably secure steganography; honey encry
 
 
 
-<link rel="alternate" hreflang="en" href="https://dingjinyang.github.io/publication/ustc_thesis/" />
+  <link rel="alternate" hreflang="zh" href="https://dingjinyang.github.io/zh/publication/ustc_thesis/" />
+
+<link rel="alternate" hreflang="en-us" href="https://dingjinyang.github.io/publication/ustc_thesis/" />
 <link rel="canonical" href="https://dingjinyang.github.io/publication/ustc_thesis/" />
 
 
@@ -362,7 +364,7 @@ information hiding; steganography; provably secure steganography; honey encry
 **1. 提出了一种基于分布副本的高效可证安全隐写构造**&lt;br /&gt; 现有的可证安全隐写构造可分为三种：基于拒绝采样的隐写构造嵌入率低、速度慢；基于算术编码的隐写构造和基于样本空间分组的隐写构造虽然能达到较高的嵌入率和较快的速度，但是具体实现过程难以满足理论假设，因此无法达到预期的安全性。上述方法本质上都是在使用样本的索引值或样本的函数值来表达消息。为了突破这些方法的局限，本文提出了基于分布副本的高效可证安全隐写构造。通过循环移位的方式为生成模型给出的概率分布创建多个分布副本，并利用分布副本的索引值来表达消息。从分布保持的角度，给出了这种隐写构造的安全性证明。通过递归分组的思想，显著提升了这种隐写构造的嵌入率。以文本生成任务为例，对这种隐写构造进行了性能测试。实验结果表明，该隐写构造的嵌入率能接近理论极限。与正常生成相比，该隐写构造引入的额外时间相对较小，这确保了它在实际应用中的高效性。此外，将该隐写构造应用于语音合成任务上，验证了该隐写构造的通用性。&lt;br /&gt;&lt;br /&gt;
 **2. 提出了一种基于深度生成模型和算术编码的文本蜜罐加密方案**&lt;br /&gt; 蜜罐加密的核心是分布转换编码器 (DTE) ，现有的 DTE 通常采用传统的统计模型和基于累积分布函数的定长编码方案。然而，这种方案在处理复杂数据时显示出建模能力、泛化能力差，而且往往不能较好地保持原始分布。本文对生成式隐写与蜜罐加密之间的关系进行分析，并尝试将生成式可证安全隐写领域的先进思想应用于文本蜜罐加密系统的设计中，提出了一种基于深度生成模型和算术编码的 DTE：首先对明文进行分词，然后使用算术编码根据深度生成模型预测的概率分布将明文编码为种子。为了消除可区分特征，在明文和种子两个层面上设计了伪随机填充方案。实验结果表明，所提出的方案压缩率较高、编码损失较小，在使用规模较大的模型时，建模损失较小、安全性较高。 &lt;br /&gt;&lt;br /&gt;
 ### 关键词
-信息隐藏；隐写；可证安全隐写；蜜罐加密；生成模型；算术编码" /><meta property="og:image" content="https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en" />
+信息隐藏；隐写；可证安全隐写；蜜罐加密；生成模型；算术编码" /><meta property="og:image" content="https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -807,6 +809,22 @@ information hiding; steganography; provably secure steganography; honey encry
         
 
         
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+             aria-haspopup="true" aria-label="Languages">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">English</span></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>English</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://dingjinyang.github.io/zh/publication/ustc_thesis/">
+              <span>中文 (简体)</span>
+            </a>
+            
+          </div>
+        </li>
         
 
       </ul>
@@ -1320,6 +1338,26 @@ The core of honey encryption is the distribution-transforming encoder (DTE). Exi
       <div class="page-footer">
   <div class="container">
     <footer class="site-footer">
+      <style>
+        @media (min-width: 992px) {
+          .i18n-dropdown .nav-link span.d-none.d-lg-inline {
+            display: none !important;
+          }
+
+          .i18n-dropdown .nav-link .fa-globe {
+            margin-right: 0 !important;
+          }
+
+          .i18n-dropdown .dropdown-toggle::after {
+            display: none;
+          }
+
+          .theme-dropdown .dropdown-menu,
+          .i18n-dropdown .dropdown-menu {
+            margin-top: 0;
+          }
+        }
+      </style>
       <script
         type="text/javascript"
         id="clustrmaps"
@@ -1327,13 +1365,99 @@ The core of honey encryption is the distribution-transforming encoder (DTE). Exi
       ></script>
       <br />
       <p class="powered-by copyright-license-text">
-        © 2025 Jinyang Ding · Powered by
-        <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener"
-          >Wowchemy</a
-        >
-        for
-        <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
+        
+          © 2026 Jinyang Ding · Powered by
+          <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">Wowchemy</a>
+          for
+          <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
+        
       </p>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var desktopMedia = window.matchMedia("(min-width: 992px)");
+
+          function dropdownParts(dropdown) {
+            return {
+              toggle: dropdown.querySelector(":scope > .nav-link"),
+              menu: dropdown.querySelector(":scope > .dropdown-menu"),
+            };
+          }
+
+          function setDropdownState(dropdown, open) {
+            var parts = dropdownParts(dropdown);
+            if (!parts.toggle || !parts.menu) return;
+
+            dropdown.classList.toggle("show", open);
+            parts.menu.classList.toggle("show", open);
+            parts.toggle.setAttribute("aria-expanded", open ? "true" : "false");
+          }
+
+          function closeHeaderDropdowns(except) {
+            document
+              .querySelectorAll(".theme-dropdown, .i18n-dropdown")
+              .forEach(function (dropdown) {
+                if (dropdown !== except) {
+                  setDropdownState(dropdown, false);
+                }
+              });
+          }
+
+          document
+            .querySelectorAll(".theme-dropdown, .i18n-dropdown")
+            .forEach(function (dropdown) {
+              var parts = dropdownParts(dropdown);
+              if (!parts.toggle || !parts.menu) return;
+
+              parts.toggle.addEventListener("click", function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+
+                var willOpen = !dropdown.classList.contains("show");
+                closeHeaderDropdowns(dropdown);
+                setDropdownState(dropdown, willOpen);
+              });
+
+              dropdown.addEventListener("mouseenter", function () {
+                if (!desktopMedia.matches) return;
+                closeHeaderDropdowns(dropdown);
+                setDropdownState(dropdown, true);
+              });
+
+              dropdown.addEventListener("mouseleave", function () {
+                if (!desktopMedia.matches) return;
+                setDropdownState(dropdown, false);
+              });
+
+              parts.menu.addEventListener("click", function (event) {
+                event.stopPropagation();
+              });
+            });
+
+          document.addEventListener("click", function () {
+            closeHeaderDropdowns();
+          });
+
+          document
+            .querySelectorAll(".i18n-dropdown span")
+            .forEach(function (node) {
+              if (node.textContent.trim() === "中文 (简体)") {
+                node.textContent = "中文";
+              }
+            });
+
+          if (document.documentElement.lang !== "zh-cn") return;
+
+          document.querySelectorAll(".js-cite-modal").forEach(function (button) {
+            var filename = button.getAttribute("data-filename");
+            if (!filename) return;
+
+            button.setAttribute(
+              "data-filename",
+              filename.replace(/^\/zh\/publication\//, "/publication/")
+            );
+          });
+        });
+      </script>
       <br />
     </footer>
   </div>

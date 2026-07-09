@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News | 丁锦扬 (Jinyang Ding)</title>
+    <link>https://dingjinyang.github.io/zh/news/</link>
+      <atom:link href="https://dingjinyang.github.io/zh/news/index.xml" rel="self" type="application/rss+xml" />
+    <description>News</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-cn</language><lastBuildDate>Sun, 17 May 2026 16:00:00 +0800</lastBuildDate>
+    <image>
+      <url>https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png</url>
+      <title>News</title>
+      <link>https://dingjinyang.github.io/zh/news/</link>
+    </image>
+    
+    <item>
+      <title>我们在徽客松 S3 中获得游园会之星（票数第一）！</title>
+      <link>https://dingjinyang.github.io/zh/news/huickthon-s3/</link>
+      <pubDate>Sun, 17 May 2026 16:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/news/huickthon-s3/</guid>
+      <description>&lt;p&gt;继续前进。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>根据 Google Scholar，我的引用次数达到 100 次。</title>
+      <link>https://dingjinyang.github.io/zh/news/100-citations/</link>
+      <pubDate>Tue, 30 Dec 2025 14:15:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/news/100-citations/</guid>
+      <description>&lt;p&gt;继续前进。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>我们关于可证明安全隐写的论文被 NDSS 2026 接收！</title>
+      <link>https://dingjinyang.github.io/zh/news/ndss26/</link>
+      <pubDate>Thu, 04 Dec 2025 09:00:11 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/news/ndss26/</guid>
+      <description>&lt;p&gt;继续前进。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>我们在徽客松 S2 中获得主赛道第一名和追觅梦想奖（¥13,000）！</title>
+      <link>https://dingjinyang.github.io/zh/news/huickthon-s2/</link>
+      <pubDate>Sun, 26 Oct 2025 16:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/news/huickthon-s2/</guid>
+      <description>&lt;p&gt;继续前进。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>我们关于可证明安全隐写的论文被 USENIX Security 2025 接收！</title>
+      <link>https://dingjinyang.github.io/zh/news/sec25/</link>
+      <pubDate>Thu, 23 Jan 2025 09:00:11 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/news/sec25/</guid>
+      <description>&lt;p&gt;继续前进。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>一篇关于可证明安全隐写的论文被 Oakland（IEEE S&amp;P）2023 接收！</title>
+      <link>https://dingjinyang.github.io/zh/news/sp23/</link>
+      <pubDate>Sat, 11 Mar 2023 09:00:11 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/news/sp23/</guid>
+      <description>&lt;p&gt;继续前进。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

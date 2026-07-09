@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>丁锦扬 (Jinyang Ding)</title>
+    <link>https://dingjinyang.github.io/zh/</link>
+      <atom:link href="https://dingjinyang.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
+    <description>丁锦扬 (Jinyang Ding)</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-cn</language><lastBuildDate>Sun, 17 May 2026 16:00:00 +0800</lastBuildDate>
+    <image>
+      <url>https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png</url>
+      <title>丁锦扬 (Jinyang Ding)</title>
+      <link>https://dingjinyang.github.io/zh/</link>
+    </image>
+    
+    <item>
+      <title>我们在徽客松 S3 中获得游园会之星（票数第一）！</title>
+      <link>https://dingjinyang.github.io/zh/news/huickthon-s3/</link>
+      <pubDate>Sun, 17 May 2026 16:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/news/huickthon-s3/</guid>
+      <description>&lt;p&gt;继续前进。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Breaking the Generative Steganography Trilemma: ANStega for Optimal Capacity, Efficiency, and Security</title>
+      <link>https://dingjinyang.github.io/zh/publication/ndss26_anstega/</link>
+      <pubDate>Thu, 19 Mar 2026 09:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/publication/ndss26_anstega/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Side-Information Estimated Steganography via Dual-Path Super-Resolution Reconstruction</title>
+      <link>https://dingjinyang.github.io/zh/publication/tdsc26_sie/</link>
+      <pubDate>Sun, 04 Jan 2026 06:15:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/publication/tdsc26_sie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>根据 Google Scholar，我的引用次数达到 100 次。</title>
+      <link>https://dingjinyang.github.io/zh/news/100-citations/</link>
+      <pubDate>Tue, 30 Dec 2025 14:15:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/news/100-citations/</guid>
+      <description>&lt;p&gt;继续前进。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>我们关于可证明安全隐写的论文被 NDSS 2026 接收！</title>
+      <link>https://dingjinyang.github.io/zh/news/ndss26/</link>
+      <pubDate>Thu, 04 Dec 2025 09:00:11 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/news/ndss26/</guid>
+      <description>&lt;p&gt;继续前进。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>我们在徽客松 S2 中获得主赛道第一名和追觅梦想奖（¥13,000）！</title>
+      <link>https://dingjinyang.github.io/zh/news/huickthon-s2/</link>
+      <pubDate>Sun, 26 Oct 2025 16:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/news/huickthon-s2/</guid>
+      <description>&lt;p&gt;继续前进。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SparSamp: Efficient Provably Secure Steganography Based on Sparse Sampling</title>
+      <link>https://dingjinyang.github.io/zh/publication/sec25_sparsamp/</link>
+      <pubDate>Thu, 23 Jan 2025 21:27:38 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/publication/sec25_sparsamp/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/wTZCh_nKM2qqw7ZrmSdljA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;隐者联盟：SparSamp: Efficient Provably Secure Steganography Based on Sparse Sampling（中文）- 微信&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>我们关于可证明安全隐写的论文被 USENIX Security 2025 接收！</title>
+      <link>https://dingjinyang.github.io/zh/news/sec25/</link>
+      <pubDate>Thu, 23 Jan 2025 09:00:11 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/news/sec25/</guid>
+      <description>&lt;p&gt;继续前进。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Provably Secure Generative Linguistic Steganography and Its Applications</title>
+      <link>https://dingjinyang.github.io/zh/publication/ustc_thesis/</link>
+      <pubDate>Wed, 05 Jun 2024 12:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/publication/ustc_thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Provably Secure Public-Key Steganography Based on Elliptic Curve Cryptography</title>
+      <link>https://dingjinyang.github.io/zh/publication/tifs24_eccstega/</link>
+      <pubDate>Wed, 07 Feb 2024 12:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/publication/tifs24_eccstega/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RoCC: Robust Covert Communication Based on Cross-Modal Information Retrieval</title>
+      <link>https://dingjinyang.github.io/zh/publication/cjig24_rocc/</link>
+      <pubDate>Tue, 06 Feb 2024 17:25:32 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/publication/cjig24_rocc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>杂项</title>
+      <link>https://dingjinyang.github.io/zh/misc/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/misc/</guid>
+      <description>&lt;h2 id=&#34;我的价值观&#34;&gt;我的价值观&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;以人为本&lt;/li&gt;
+&lt;li&gt;去幻求真&lt;/li&gt;
+&lt;li&gt;知行合一&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;To live is to change the world&#34; srcset=&#34;
+               /media/Change_the_world_hu62c44748ac90f4d418d6823c54095399_4130045_f1f6e0fe2f6dceea9d406eb37c7434a4.webp 400w,
+               /media/Change_the_world_hu62c44748ac90f4d418d6823c54095399_4130045_b4863023de5308e1fd243a11ea5a31f0.webp 760w,
+               /media/Change_the_world_hu62c44748ac90f4d418d6823c54095399_4130045_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dingjinyang.github.io/media/Change_the_world_hu62c44748ac90f4d418d6823c54095399_4130045_f1f6e0fe2f6dceea9d406eb37c7434a4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;我的爱好&#34;&gt;我的爱好&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;摄影&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;阅读&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;影视&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;音乐与播客 &lt;a href=&#34;https://comydream.github.io/podcasts/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;u&gt;我所喜欢的播客&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;运动&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;健身&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;游泳&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;羽毛球&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;跑步（已完成 5 次半程马拉松）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;骑行&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;EXIT&#34; srcset=&#34;
+               /media/EXIT_2_hu5393e024f5a276d481861dcf1f70a91d_836262_25bbbcb5f0bc87d4408d5f2f93ab859a.webp 400w,
+               /media/EXIT_2_hu5393e024f5a276d481861dcf1f70a91d_836262_f8abf7cc067c471ec00f87fa28684ace.webp 760w,
+               /media/EXIT_2_hu5393e024f5a276d481861dcf1f70a91d_836262_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dingjinyang.github.io/media/EXIT_2_hu5393e024f5a276d481861dcf1f70a91d_836262_25bbbcb5f0bc87d4408d5f2f93ab859a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;我的-logo&#34;&gt;我的 Logo&lt;/h2&gt;
+&lt;p&gt;这个 Logo 是我小学二年级设计的，&lt;/p&gt;
+&lt;p&gt;一直沿用至今。&lt;/p&gt;
+&lt;p&gt;上小学时我会在每本书的扉页上画上这个 Logo 。&lt;/p&gt;
+&lt;p&gt;如果你粗略看，&lt;/p&gt;
+&lt;p&gt;会觉得它有点像一把很奇怪的伞。&lt;/p&gt;
+&lt;p&gt;如果你细心看，&lt;/p&gt;
+&lt;p&gt;会发现里面包含 D、J、Y 三个字母。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /media/meetDJY_favicon_orange_hu7ea0fbbe16cce49038b128995c9180a2_292557_05b348f3767c3c4ec374f624e8b9d382.webp 400w,
+               /media/meetDJY_favicon_orange_hu7ea0fbbe16cce49038b128995c9180a2_292557_adbf41170c40730c4724009b085b9427.webp 760w,
+               /media/meetDJY_favicon_orange_hu7ea0fbbe16cce49038b128995c9180a2_292557_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dingjinyang.github.io/media/meetDJY_favicon_orange_hu7ea0fbbe16cce49038b128995c9180a2_292557_05b348f3767c3c4ec374f624e8b9d382.webp&#34;
+               width=&#34;240&#34;
+               height=&#34;758&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;我喜欢的句子&#34;&gt;我喜欢的句子&lt;/h2&gt;
+&lt;p&gt;The journey is the reward. — Steve Jobs&lt;/br&gt;
+旅途本身就是奖励。——史蒂夫·乔布斯&lt;/p&gt;
+&lt;p&gt;The best way to predict the future is to create it. — Alan Kay&lt;/br&gt;
+预测未来的最好方式就是创造未来。——艾伦·凯&lt;/p&gt;
+&lt;p&gt;Stay hungry. Stay Foolish. — &lt;em&gt;Whole Earth Catalog&lt;/em&gt;&lt;/br&gt;
+求知若饥，虚心若愚。——《全球概览》&lt;/p&gt;
+&lt;p&gt;Curiosity is more important than knowledge. — Albert Einstein&lt;/br&gt;
+好奇心比知识更重要。——阿尔伯特·爱因斯坦&lt;/p&gt;
+&lt;p&gt;Business is the greatest charity.&lt;/br&gt;
+商业是最大的慈善。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>实用链接</title>
+      <link>https://dingjinyang.github.io/zh/useful-links/</link>
+      <pubDate>Wed, 15 Mar 2023 00:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/useful-links/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://jianying.space/conference-ranking.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;网络安全顶会排名&lt;/a&gt; by Jianying Zhou @ SUTD&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://people.engr.tamu.edu/guofei/sec_conf_stat.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;计算机安全会议排名与统计&lt;/a&gt; by Guofei Gu @ TAMU&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://csrankings.org/#/fromyear/2018/toyear/2023/index?sec&amp;amp;world&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSRankings: 安全 (除 NDSS) 2018~2023&lt;/a&gt; by Emery Berger @ UMass&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://csrankings.org/#/fromyear/2018/toyear/2023/index?crypt&amp;amp;world&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSRankings: 密码学 2018~2023&lt;/a&gt; by Emery Berger @ UMass&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.s3.eurecom.fr/~balzarot/security-circus/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;计算机安全圈&lt;/a&gt; by Davide Balzarotti @ Eurecom&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://nebelwelt.net/pubstats/top-authors-sys_sec.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;计算机安全研究人员排名&lt;/a&gt; by Mathias Payer @ EPFL&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cs.cornell.edu/andru/csconf.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;计算机科学顶级会议和期刊&lt;/a&gt; by Andrew Myers @ Cornell&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://secpaper.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;计算机安全论文检索系统&lt;/a&gt; by NISL @ THU&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://comydream.github.io/journals-and-conferences/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;计算机科学知名会议与期刊&lt;/a&gt; by ComyDream&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://ccfddl.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCF 会议截稿日历&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sec-deadlines.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;计算机安全和隐私会议截稿日历&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://aideadlin.es/?sub=ML,NLP,CV&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI 会议截稿日历&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://996.icu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;996.ICU&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Discop: Provably Secure Steganography in Practice Based on “Distribution Copies”</title>
+      <link>https://dingjinyang.github.io/zh/publication/sp23_discop/</link>
+      <pubDate>Sat, 11 Mar 2023 09:00:11 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/publication/sp23_discop/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/94StLBmtiH1Qahloet6MIQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CS Conference: IEEE S&amp;amp;P ’23 介绍（中文）- 微信&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/70A_Rx8T-AmAeHU_dOgQZw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;隐者联盟：Discop: Provably Secure Steganography in Practice Based on “Distribution Copies”（中文）- 微信&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/comydream/provably-secure-steganography&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;comydream/provably-secure-steganography - GitHub&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>一篇关于可证明安全隐写的论文被 Oakland（IEEE S&amp;P）2023 接收！</title>
+      <link>https://dingjinyang.github.io/zh/news/sp23/</link>
+      <pubDate>Sat, 11 Mar 2023 09:00:11 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/news/sp23/</guid>
+      <description>&lt;p&gt;继续前进。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ICStega: Image Captioning-based Semantically Controllable Linguistic Steganography</title>
+      <link>https://dingjinyang.github.io/zh/publication/icassp23_icstega/</link>
+      <pubDate>Sat, 18 Feb 2023 13:38:20 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/publication/icassp23_icstega/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research on Robust Digital Watermarking Resilient to Geometric Distortion</title>
+      <link>https://dingjinyang.github.io/zh/publication/cumt_thesis/</link>
+      <pubDate>Mon, 01 Jun 2020 12:00:00 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/publication/cumt_thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

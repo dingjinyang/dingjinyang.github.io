@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 21, 2026 --><html lang="en" >
+<!-- Last Published: July 9, 2026 --><html lang="en-us" >
 
 
 <head>
@@ -294,7 +294,9 @@ information hiding; digital watermarking; geometric attacks; uniform logpolar ma
 
 
 
-<link rel="alternate" hreflang="en" href="https://dingjinyang.github.io/publication/cumt_thesis/" />
+  <link rel="alternate" hreflang="zh" href="https://dingjinyang.github.io/zh/publication/cumt_thesis/" />
+
+<link rel="alternate" hreflang="en-us" href="https://dingjinyang.github.io/publication/cumt_thesis/" />
 <link rel="canonical" href="https://dingjinyang.github.io/publication/cumt_thesis/" />
 
 
@@ -346,7 +348,7 @@ information hiding; digital watermarking; geometric attacks; uniform logpolar ma
 随着互联网的迅速发展，数字多媒体信息已成为人们生活中不可或缺的组成部分，随之而来的版权问题日益凸显。数字水印技术将一段特定的信息即水印嵌入到载体信息中，为版权所有者提供所有权证明，是解决版权问题的一种重要方法。&lt;br /&gt;&lt;br /&gt;
 本课题实现了基于均匀对数极坐标映射 (ULPM) 的鲁棒盲水印框架，并完善 了其细节，优化了算法流程和参数取值。用于嵌入的水印由两部分组成：消息序 列和跟踪序列。水印嵌入算法根据 ULPM 映射表将水印嵌入到载体图像的 DFT 幅度谱中。水印提取算法通过互相关运算来定位水印，从而提取出其携带的消息。 水印嵌入端与水印提取端只需要共享一个密钥，就能实现水印的盲提取。在嵌入 水印后，基于人类视觉系统的掩蔽特性在空域进行失真补偿，以提升其不可见性； 使用纠错编码、扩频技术，以满足其鲁棒性。在此基础上，设计并实现了一个水 印综合评估系统，从标准测试图数据库中选取了 8 幅具有代表性的图像作为测试 图像集。实验结果表明，提出的水印方案具有良好的不可见性、计算效率。对质 量因数为 20 以上的 JPEG 压缩、滤波器大小为 3×3 的高斯滤波等简单攻击，任意角度的旋转、缩放因子为 0.75~1.40 的等比例缩放、比例为 45% 以上的裁剪等 几何攻击具有良好的鲁棒性。
 ### 关键词
-信息隐藏；数字水印；几何攻击；均匀对数极坐标映射；失真补偿" /><meta property="og:image" content="https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en" />
+信息隐藏；数字水印；几何攻击；均匀对数极坐标映射；失真补偿" /><meta property="og:image" content="https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -791,6 +793,22 @@ information hiding; digital watermarking; geometric attacks; uniform logpolar ma
         
 
         
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+             aria-haspopup="true" aria-label="Languages">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">English</span></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>English</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://dingjinyang.github.io/zh/publication/cumt_thesis/">
+              <span>中文 (简体)</span>
+            </a>
+            
+          </div>
+        </li>
         
 
       </ul>
@@ -1306,6 +1324,26 @@ The robust blind watermarking based on uniform log-polar mapping (ULPM) is imple
       <div class="page-footer">
   <div class="container">
     <footer class="site-footer">
+      <style>
+        @media (min-width: 992px) {
+          .i18n-dropdown .nav-link span.d-none.d-lg-inline {
+            display: none !important;
+          }
+
+          .i18n-dropdown .nav-link .fa-globe {
+            margin-right: 0 !important;
+          }
+
+          .i18n-dropdown .dropdown-toggle::after {
+            display: none;
+          }
+
+          .theme-dropdown .dropdown-menu,
+          .i18n-dropdown .dropdown-menu {
+            margin-top: 0;
+          }
+        }
+      </style>
       <script
         type="text/javascript"
         id="clustrmaps"
@@ -1313,13 +1351,99 @@ The robust blind watermarking based on uniform log-polar mapping (ULPM) is imple
       ></script>
       <br />
       <p class="powered-by copyright-license-text">
-        © 2025 Jinyang Ding · Powered by
-        <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener"
-          >Wowchemy</a
-        >
-        for
-        <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
+        
+          © 2026 Jinyang Ding · Powered by
+          <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">Wowchemy</a>
+          for
+          <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
+        
       </p>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var desktopMedia = window.matchMedia("(min-width: 992px)");
+
+          function dropdownParts(dropdown) {
+            return {
+              toggle: dropdown.querySelector(":scope > .nav-link"),
+              menu: dropdown.querySelector(":scope > .dropdown-menu"),
+            };
+          }
+
+          function setDropdownState(dropdown, open) {
+            var parts = dropdownParts(dropdown);
+            if (!parts.toggle || !parts.menu) return;
+
+            dropdown.classList.toggle("show", open);
+            parts.menu.classList.toggle("show", open);
+            parts.toggle.setAttribute("aria-expanded", open ? "true" : "false");
+          }
+
+          function closeHeaderDropdowns(except) {
+            document
+              .querySelectorAll(".theme-dropdown, .i18n-dropdown")
+              .forEach(function (dropdown) {
+                if (dropdown !== except) {
+                  setDropdownState(dropdown, false);
+                }
+              });
+          }
+
+          document
+            .querySelectorAll(".theme-dropdown, .i18n-dropdown")
+            .forEach(function (dropdown) {
+              var parts = dropdownParts(dropdown);
+              if (!parts.toggle || !parts.menu) return;
+
+              parts.toggle.addEventListener("click", function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+
+                var willOpen = !dropdown.classList.contains("show");
+                closeHeaderDropdowns(dropdown);
+                setDropdownState(dropdown, willOpen);
+              });
+
+              dropdown.addEventListener("mouseenter", function () {
+                if (!desktopMedia.matches) return;
+                closeHeaderDropdowns(dropdown);
+                setDropdownState(dropdown, true);
+              });
+
+              dropdown.addEventListener("mouseleave", function () {
+                if (!desktopMedia.matches) return;
+                setDropdownState(dropdown, false);
+              });
+
+              parts.menu.addEventListener("click", function (event) {
+                event.stopPropagation();
+              });
+            });
+
+          document.addEventListener("click", function () {
+            closeHeaderDropdowns();
+          });
+
+          document
+            .querySelectorAll(".i18n-dropdown span")
+            .forEach(function (node) {
+              if (node.textContent.trim() === "中文 (简体)") {
+                node.textContent = "中文";
+              }
+            });
+
+          if (document.documentElement.lang !== "zh-cn") return;
+
+          document.querySelectorAll(".js-cite-modal").forEach(function (button) {
+            var filename = button.getAttribute("data-filename");
+            if (!filename) return;
+
+            button.setAttribute(
+              "data-filename",
+              filename.replace(/^\/zh\/publication\//, "/publication/")
+            );
+          });
+        });
+      </script>
       <br />
     </footer>
   </div>

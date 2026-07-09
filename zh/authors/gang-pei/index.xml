@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gang Pei | 丁锦扬 (Jinyang Ding)</title>
+    <link>https://dingjinyang.github.io/zh/authors/gang-pei/</link>
+      <atom:link href="https://dingjinyang.github.io/zh/authors/gang-pei/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gang Pei</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-cn</language><lastBuildDate>Thu, 23 Jan 2025 21:27:38 +0800</lastBuildDate>
+    <image>
+      <url>https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png</url>
+      <title>Gang Pei</title>
+      <link>https://dingjinyang.github.io/zh/authors/gang-pei/</link>
+    </image>
+    
+    <item>
+      <title>SparSamp: Efficient Provably Secure Steganography Based on Sparse Sampling</title>
+      <link>https://dingjinyang.github.io/zh/publication/sec25_sparsamp/</link>
+      <pubDate>Thu, 23 Jan 2025 21:27:38 +0800</pubDate>
+      <guid>https://dingjinyang.github.io/zh/publication/sec25_sparsamp/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/wTZCh_nKM2qqw7ZrmSdljA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;隐者联盟：SparSamp: Efficient Provably Secure Steganography Based on Sparse Sampling（中文）- 微信&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

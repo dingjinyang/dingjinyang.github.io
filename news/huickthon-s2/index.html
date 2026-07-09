@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 21, 2026 --><html lang="en" >
+<!-- Last Published: July 9, 2026 --><html lang="en-us" >
 
 
 <head>
@@ -284,7 +284,9 @@
 
 
 
-<link rel="alternate" hreflang="en" href="https://dingjinyang.github.io/news/huickthon-s2/" />
+  <link rel="alternate" hreflang="zh" href="https://dingjinyang.github.io/zh/news/huickthon-s2/" />
+
+<link rel="alternate" hreflang="en-us" href="https://dingjinyang.github.io/news/huickthon-s2/" />
 <link rel="canonical" href="https://dingjinyang.github.io/news/huickthon-s2/" />
 
 
@@ -326,7 +328,7 @@
 <meta property="og:site_name" content="Jinyang Ding" />
 <meta property="og:url" content="https://dingjinyang.github.io/news/huickthon-s2/" />
 <meta property="og:title" content="We won the Main Track Grand Prize and the Dreame “Dream Pursuit” Award at Huickathon (Anhui Hackathon) Season 2 (¥13,000)! | Jinyang Ding" />
-<meta property="og:description" content="This was my first hackathon. It was a fantastic experience. 😋" /><meta property="og:image" content="https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en" />
+<meta property="og:description" content="This was my first hackathon. It was a fantastic experience. 😋" /><meta property="og:image" content="https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -731,6 +733,22 @@
 
         
         
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+             aria-haspopup="true" aria-label="Languages">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">English</span></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>English</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://dingjinyang.github.io/zh/news/huickthon-s2/">
+              <span>中文 (简体)</span>
+            </a>
+            
+          </div>
+        </li>
+        
 
       </ul>
 
@@ -1117,6 +1135,26 @@
       <div class="page-footer">
   <div class="container">
     <footer class="site-footer">
+      <style>
+        @media (min-width: 992px) {
+          .i18n-dropdown .nav-link span.d-none.d-lg-inline {
+            display: none !important;
+          }
+
+          .i18n-dropdown .nav-link .fa-globe {
+            margin-right: 0 !important;
+          }
+
+          .i18n-dropdown .dropdown-toggle::after {
+            display: none;
+          }
+
+          .theme-dropdown .dropdown-menu,
+          .i18n-dropdown .dropdown-menu {
+            margin-top: 0;
+          }
+        }
+      </style>
       <script
         type="text/javascript"
         id="clustrmaps"
@@ -1124,13 +1162,99 @@
       ></script>
       <br />
       <p class="powered-by copyright-license-text">
-        © 2025 Jinyang Ding · Powered by
-        <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener"
-          >Wowchemy</a
-        >
-        for
-        <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
+        
+          © 2026 Jinyang Ding · Powered by
+          <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">Wowchemy</a>
+          for
+          <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
+        
       </p>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var desktopMedia = window.matchMedia("(min-width: 992px)");
+
+          function dropdownParts(dropdown) {
+            return {
+              toggle: dropdown.querySelector(":scope > .nav-link"),
+              menu: dropdown.querySelector(":scope > .dropdown-menu"),
+            };
+          }
+
+          function setDropdownState(dropdown, open) {
+            var parts = dropdownParts(dropdown);
+            if (!parts.toggle || !parts.menu) return;
+
+            dropdown.classList.toggle("show", open);
+            parts.menu.classList.toggle("show", open);
+            parts.toggle.setAttribute("aria-expanded", open ? "true" : "false");
+          }
+
+          function closeHeaderDropdowns(except) {
+            document
+              .querySelectorAll(".theme-dropdown, .i18n-dropdown")
+              .forEach(function (dropdown) {
+                if (dropdown !== except) {
+                  setDropdownState(dropdown, false);
+                }
+              });
+          }
+
+          document
+            .querySelectorAll(".theme-dropdown, .i18n-dropdown")
+            .forEach(function (dropdown) {
+              var parts = dropdownParts(dropdown);
+              if (!parts.toggle || !parts.menu) return;
+
+              parts.toggle.addEventListener("click", function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+
+                var willOpen = !dropdown.classList.contains("show");
+                closeHeaderDropdowns(dropdown);
+                setDropdownState(dropdown, willOpen);
+              });
+
+              dropdown.addEventListener("mouseenter", function () {
+                if (!desktopMedia.matches) return;
+                closeHeaderDropdowns(dropdown);
+                setDropdownState(dropdown, true);
+              });
+
+              dropdown.addEventListener("mouseleave", function () {
+                if (!desktopMedia.matches) return;
+                setDropdownState(dropdown, false);
+              });
+
+              parts.menu.addEventListener("click", function (event) {
+                event.stopPropagation();
+              });
+            });
+
+          document.addEventListener("click", function () {
+            closeHeaderDropdowns();
+          });
+
+          document
+            .querySelectorAll(".i18n-dropdown span")
+            .forEach(function (node) {
+              if (node.textContent.trim() === "中文 (简体)") {
+                node.textContent = "中文";
+              }
+            });
+
+          if (document.documentElement.lang !== "zh-cn") return;
+
+          document.querySelectorAll(".js-cite-modal").forEach(function (button) {
+            var filename = button.getAttribute("data-filename");
+            if (!filename) return;
+
+            button.setAttribute(
+              "data-filename",
+              filename.replace(/^\/zh\/publication\//, "/publication/")
+            );
+          });
+        });
+      </script>
       <br />
     </footer>
   </div>
