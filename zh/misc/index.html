@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: 2026年7月9日 --><html lang="zh-cn" >
+<!-- Last Published: 2026年7月16日 --><html lang="zh-cn" >
 
 
 <head>
@@ -22,6 +22,78 @@
 
 
 
+
+  
+    
+      
+      <script>
+  (function () {
+    "use strict";
+
+    var storageKey = "preferred-language";
+
+    function readPreference() {
+      try {
+        var preference = window.localStorage.getItem(storageKey);
+        return preference === "zh" || preference === "en" ? preference : null;
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function savePreference(preference) {
+      try {
+        window.localStorage.setItem(storageKey, preference);
+      } catch (error) {
+        
+      }
+    }
+
+    function browserPreference() {
+      var languages = navigator.languages && navigator.languages.length
+        ? navigator.languages
+        : [navigator.language || navigator.userLanguage || ""];
+      var primaryLanguage = String(languages[0]).toLowerCase();
+
+      return primaryLanguage.indexOf("zh") === 0 ? "zh" : "en";
+    }
+
+    var preference = readPreference();
+
+    if (window.location.pathname === "/") {
+      if (!preference) {
+        preference = browserPreference();
+        savePreference(preference);
+      }
+
+      if (preference === "zh") {
+        window.location.replace(
+          "/zh/" + window.location.search + window.location.hash
+        );
+        return;
+      }
+    }
+
+    document.addEventListener(
+      "click",
+      function (event) {
+        var target = event.target;
+        if (!(target instanceof Element)) return;
+
+        var languageLink = target.closest(".i18n-dropdown a[data-target]");
+        if (!languageLink) return;
+
+        var targetPath = languageLink.getAttribute("data-target") || "";
+        savePreference(targetPath.indexOf("/zh/") === 0 ? "zh" : "en");
+      },
+      true
+    );
+  })();
+</script>
+
+      
+    
+  
 
 
 
