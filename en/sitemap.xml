@@ -2,6 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dingjinyang.github.io/playground/picclean/</loc>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://dingjinyang.github.io/zh/playground/picclean/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://dingjinyang.github.io/playground/picclean/"
+                />
+  </url><url>
+    <loc>https://dingjinyang.github.io/playground/speedtest/</loc>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://dingjinyang.github.io/zh/playground/speedtest/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://dingjinyang.github.io/playground/speedtest/"
+                />
+  </url><url>
     <loc>https://dingjinyang.github.io/</loc>
     <lastmod>2026-05-17T16:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -377,6 +403,19 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://dingjinyang.github.io/categories/"
+                />
+  </url><url>
+    <loc>https://dingjinyang.github.io/playground/</loc>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://dingjinyang.github.io/zh/playground/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://dingjinyang.github.io/playground/"
                 />
   </url>
 </urlset>
