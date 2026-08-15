@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://dingjinyang.github.io/zh/news/</loc>
-    <lastmod>2026-05-17T16:00:00+08:00</lastmod>
+    <lastmod>2026-08-15T22:52:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -43,7 +43,7 @@
                 />
   </url><url>
     <loc>https://dingjinyang.github.io/zh/</loc>
-    <lastmod>2026-05-17T16:00:00+08:00</lastmod>
+    <lastmod>2026-08-15T22:52:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -54,6 +54,20 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://dingjinyang.github.io/zh/"
+                />
+  </url><url>
+    <loc>https://dingjinyang.github.io/zh/news/blog-100k-views/</loc>
+    <lastmod>2026-08-15T22:52:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://dingjinyang.github.io/news/blog-100k-views/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://dingjinyang.github.io/zh/news/blog-100k-views/"
                 />
   </url><url>
     <loc>https://dingjinyang.github.io/zh/news/huickthon-s3/</loc>

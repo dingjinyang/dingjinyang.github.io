@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://dingjinyang.github.io/</loc>
-    <lastmod>2026-05-17T16:00:00+08:00</lastmod>
+    <lastmod>2026-08-15T22:52:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -42,8 +42,22 @@
                 href="https://dingjinyang.github.io/"
                 />
   </url><url>
+    <loc>https://dingjinyang.github.io/news/blog-100k-views/</loc>
+    <lastmod>2026-08-15T22:52:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://dingjinyang.github.io/zh/news/blog-100k-views/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://dingjinyang.github.io/news/blog-100k-views/"
+                />
+  </url><url>
     <loc>https://dingjinyang.github.io/news/</loc>
-    <lastmod>2026-05-17T16:00:00+08:00</lastmod>
+    <lastmod>2026-08-15T22:52:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
