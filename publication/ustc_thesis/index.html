@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: September 7, 2026 --><html lang="en-us" >
+<!-- Last Published: September 8, 2026 --><html lang="en-us" >
 
 
 <head>
@@ -311,6 +311,45 @@
 
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BZYFRLH75Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-BZYFRLH75Y', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -1452,6 +1491,8 @@ The core of honey encryption is the distribution-transforming encoder (DTE). Exi
   <div class="container">
     <footer class="site-footer">
       <style>
+        
+
         @media (min-width: 992px) {
           .i18n-dropdown .nav-link span.d-none.d-lg-inline {
             display: none !important;
@@ -1473,9 +1514,19 @@ The core of honey encryption is the distribution-transforming encoder (DTE). Exi
       </style>
       <script
         type="text/javascript"
-        id="clustrmaps"
-        src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=H26Dy4MJmE2YdQCDILb4yXMa8Vt2n9VHCzFuVjs2cLI&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff"
+        id="mapmyvisitors"
+        src="https://mapmyvisitors.com/map.js?d=zkz96o_swH82WjAm2ep9zkQkgYO_9aqVpaOlPrslDto&cl=ffffff&w=300"
       ></script>
+      <noscript>
+        <a href="https://mapmyvisitors.com/web/1c82p" title="Visit tracker">
+          <img
+            src="https://mapmyvisitors.com/map.png?d=zkz96o_swH82WjAm2ep9zkQkgYO_9aqVpaOlPrslDto&cl=ffffff"
+            alt="Visitor map"
+            width="300"
+            style="display: block; max-width: 100%; height: auto; margin: 0 auto;"
+          />
+        </a>
+      </noscript>
       <br />
       <p class="powered-by copyright-license-text">
         
