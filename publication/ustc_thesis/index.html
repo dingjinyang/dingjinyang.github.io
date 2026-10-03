@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: September 8, 2026 --><html lang="en-us" >
+<!-- Last Published: October 3, 2026 --><html lang="en-us" >
 
 
 <head>
@@ -413,10 +413,10 @@ information hiding; steganography; provably secure steganography; honey encry
 
 
 
-  <link rel="alternate" hreflang="zh" href="https://dingjinyang.github.io/zh/publication/ustc_thesis/" />
+  <link rel="alternate" hreflang="zh" href="https://ding.ac.cn/zh/publication/ustc_thesis/" />
 
-<link rel="alternate" hreflang="en-us" href="https://dingjinyang.github.io/publication/ustc_thesis/" />
-<link rel="canonical" href="https://dingjinyang.github.io/publication/ustc_thesis/" />
+<link rel="alternate" hreflang="en-us" href="https://ding.ac.cn/publication/ustc_thesis/" />
+<link rel="canonical" href="https://ding.ac.cn/publication/ustc_thesis/" />
 
 
 
@@ -447,7 +447,7 @@ information hiding; steganography; provably secure steganography; honey encry
 
 
 <meta property="twitter:card" content="summary" />
-<meta property="twitter:image" content="https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" />
+<meta property="twitter:image" content="https://ding.ac.cn/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" />
 
 
 
@@ -455,7 +455,7 @@ information hiding; steganography; provably secure steganography; honey encry
 
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="Jinyang Ding" />
-<meta property="og:url" content="https://dingjinyang.github.io/publication/ustc_thesis/" />
+<meta property="og:url" content="https://ding.ac.cn/publication/ustc_thesis/" />
 <meta property="og:title" content="Provably Secure Generative Linguistic Steganography and Its Applications | Jinyang Ding" />
 <meta property="og:description" content="Information security issues have become increasingly prominent as the internet undergoes rapid development and widespread popularity. While traditional cryptographic solutions secure content confidentiality, they may still attract attackers’ attention. Thus, modern communication security requires not only the confidentiality of information but also the concealment of the process, leading to the emergence and widespread application of information hiding techniques. Steganography, a significant branch of information hiding, enables the covert embedding of secret messages within various carriers, which is crucial for military communications and personal privacy protection. Traditional modification-based steganographic algorithms can only achieve empirical security. Achieving provable security has always been an important pursuit for the steganographic community. One prerequisite for achieving provably secure steganography is the existence of a sampler that can strictly sample according to the carrier’s distribution. The swift advancement of deep generative models and the prevalence of AI-generated data have provided new techniques and environments for provably secure generative steganography, advancing research in this field.&lt;br /&gt;&lt;br /&gt;
 Considering the rapid advances in computational power and the potential emergence of new attack vectors, traditional encryption techniques will likely become insecure in a few decades, necessitating more secure encryption measures to meet long-term security needs. Honey encryption is a novel technique that aims to produce a plausiblelooking decoy plaintext when an attacker attempts to decrypt the ciphertext with a wrong key. Thus, even if an attacker obtains all possible plaintexts through brute-force attacks, identifying the true plaintext among them is still challenging. Such a design significantly enhances encryption security, making honey encryption an effective tool against brute-force attacks and particularly suitable for scenarios requiring long-term protection against powerful attacks.&lt;br /&gt;&lt;br /&gt;
@@ -475,7 +475,7 @@ information hiding; steganography; provably secure steganography; honey encry
 **1. 提出了一种基于分布副本的高效可证安全隐写构造**&lt;br /&gt; 现有的可证安全隐写构造可分为三种：基于拒绝采样的隐写构造嵌入率低、速度慢；基于算术编码的隐写构造和基于样本空间分组的隐写构造虽然能达到较高的嵌入率和较快的速度，但是具体实现过程难以满足理论假设，因此无法达到预期的安全性。上述方法本质上都是在使用样本的索引值或样本的函数值来表达消息。为了突破这些方法的局限，本文提出了基于分布副本的高效可证安全隐写构造。通过循环移位的方式为生成模型给出的概率分布创建多个分布副本，并利用分布副本的索引值来表达消息。从分布保持的角度，给出了这种隐写构造的安全性证明。通过递归分组的思想，显著提升了这种隐写构造的嵌入率。以文本生成任务为例，对这种隐写构造进行了性能测试。实验结果表明，该隐写构造的嵌入率能接近理论极限。与正常生成相比，该隐写构造引入的额外时间相对较小，这确保了它在实际应用中的高效性。此外，将该隐写构造应用于语音合成任务上，验证了该隐写构造的通用性。&lt;br /&gt;&lt;br /&gt;
 **2. 提出了一种基于深度生成模型和算术编码的文本蜜罐加密方案**&lt;br /&gt; 蜜罐加密的核心是分布转换编码器 (DTE) ，现有的 DTE 通常采用传统的统计模型和基于累积分布函数的定长编码方案。然而，这种方案在处理复杂数据时显示出建模能力、泛化能力差，而且往往不能较好地保持原始分布。本文对生成式隐写与蜜罐加密之间的关系进行分析，并尝试将生成式可证安全隐写领域的先进思想应用于文本蜜罐加密系统的设计中，提出了一种基于深度生成模型和算术编码的 DTE：首先对明文进行分词，然后使用算术编码根据深度生成模型预测的概率分布将明文编码为种子。为了消除可区分特征，在明文和种子两个层面上设计了伪随机填充方案。实验结果表明，所提出的方案压缩率较高、编码损失较小，在使用规模较大的模型时，建模损失较小、安全性较高。 &lt;br /&gt;&lt;br /&gt;
 ### 关键词
-信息隐藏；隐写；可证安全隐写；蜜罐加密；生成模型；算术编码" /><meta property="og:image" content="https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+信息隐藏；隐写；可证安全隐写；蜜罐加密；生成模型；算术编码" /><meta property="og:image" content="https://ding.ac.cn/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -508,7 +508,7 @@ information hiding; steganography; provably secure steganography; honey encry
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://dingjinyang.github.io/publication/ustc_thesis/"
+    "@id": "https://ding.ac.cn/publication/ustc_thesis/"
   },
   "headline": "Provably Secure Generative Linguistic Steganography and Its Applications",
   
@@ -525,7 +525,7 @@ information hiding; steganography; provably secure steganography; honey encry
     "name": "Jinyang Ding",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://dingjinyang.github.io/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_192x192_fill_lanczos_center_3.png"
+      "url": "https://ding.ac.cn/media/icon_hu0c743c00fa507e79fa0d55a7940c493c_15459_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "Information security issues have become increasingly prominent as the internet undergoes rapid development and widespread popularity. While traditional cryptographic solutions secure content confidentiality, they may still attract attackers’ attention. Thus, modern communication security requires not only the confidentiality of information but also the concealment of the process, leading to the emergence and widespread application of information hiding techniques. Steganography, a significant branch of information hiding, enables the covert embedding of secret messages within various carriers, which is crucial for military communications and personal privacy protection. Traditional modification-based steganographic algorithms can only achieve empirical security. Achieving provable security has always been an important pursuit for the steganographic community. One prerequisite for achieving provably secure steganography is the existence of a sampler that can strictly sample according to the carrier’s distribution. The swift advancement of deep generative models and the prevalence of AI-generated data have provided new techniques and environments for provably secure generative steganography, advancing research in this field.\u003cbr /\u003e\u003cbr /\u003e\nConsidering the rapid advances in computational power and the potential emergence of new attack vectors, traditional encryption techniques will likely become insecure in a few decades, necessitating more secure encryption measures to meet long-term security needs. Honey encryption is a novel technique that aims to produce a plausiblelooking decoy plaintext when an attacker attempts to decrypt the ciphertext with a wrong key. Thus, even if an attacker obtains all possible plaintexts through brute-force attacks, identifying the true plaintext among them is still challenging. Such a design significantly enhances encryption security, making honey encryption an effective tool against brute-force attacks and particularly suitable for scenarios requiring long-term protection against powerful attacks.\u003cbr /\u003e\u003cbr /\u003e\nThe thesis addresses the two core needs of data privacy protection—concealment and confidentiality—and revolves around researching provably secure generative steganography and honey encryption. The main contributions and innovations of the thesis can be summarized as follows.\u003cbr /\u003e\u003cbr /\u003e\n**1. Efficient and Provably Secure Steganographic Algorithm Based on Distribution Copies**\u003cbr /\u003e\nThe existing provably secure steganographic algorithms can be categorized into three types: those based on rejection sampling suffer from low embedding rates and slow speed; those based on arithmetic coding and those based on sample space grouping are capable of achieving higher embedding rates and speed, but their implementations are challenging to meet the theoretical assumptions, therefore they cannot achieve the expected security. Essentially, all the aforementioned algorithms use the index values or function values of samples to express the message. To overcome the limitations of existing algorithms, this thesis proposes an efficient and provably secure steganographic algorithm based on distribution copies. By creating multiple distribution copies by rotating the probability distribution provided by the generative models, the index values of the distribution copies are employed to express the message. Security proof is given from the perspective of distribution preservation. The embedding rate of the algorithm is significantly enhanced by recursive grouping. Taking the text generation task as an example, performance tests are conducted. Experimental results show that the embedding rate of this steganographic algorithm can approach the theoretical limit. Compared with the normal generation, the introduced additional time is relatively small, ensuring the algorithm’s efficiency in practical applications. Furthermore, the algorithm is deployed on the text-to-speech task, verifying its versatility.\u003cbr /\u003e\u003cbr /\u003e\n**2. Honey Encryption Scheme for Natural Language Text Based on Deep Generative Models and Arithmetic Coding**\u003cbr /\u003e\nThe core of honey encryption is the distribution-transforming encoder (DTE). Existing DTEs typically leverage traditional statistical models and a fixed-length encoding scheme based on the cumulative distribution function (CDF). However, these schemes fall short in modeling capability and generalization when dealing with complex data and struggle to maintain the original distribution. Starting with the minimization of modeling and encoding losses and applying ideas from the domain of provably secure generative steganography, this thesis designs a DTE based on deep generative models and arithmetic coding. It begins by tokenizing the plaintext, then encodes the tokens into a seed using arithmetic coding, leveraging the probability distribution provided by a deep generative model. To eliminate distinguishable characteristics, pseudo-random padding schemes are conceived at the plaintext and seed levels. The experimental results demonstrate that the proposed scheme achieves a high compression ratio and little encoding loss. The scheme can achieve little modeling loss and high security when using large models.\n### Key Words\ninformation hiding; steganography; provably secure steganography; honey encryption; generative model; arithmetic coding\n### 标题\n生成式可证安全文本隐写及其应用\n### 摘要\n随着互联网的迅猛发展与广泛普及，信息安全问题日益突出。传统的基于密码学的解决方案虽能保障内容保密，但可能引起攻击者的注意。因此，现代通信安全既要求内容保密又希望过程隐蔽，信息隐藏技术应运而生并得到广泛应用。隐写术作为信息隐藏的重要分支，能将秘密消息隐秘地嵌入到各类信息载体中，从而实现隐蔽通信或存储，对军事通信和个人隐私保护至关重要。传统的修改式隐写只能停留在经验安全，实现可证安全一直是隐写领域的一大追求。实现可证安全隐写的一个前提是存在一个能够严格按照载体分布进行采样的采样器。深度生成模型的快速发展和生成数据的流行为可证安全隐写带来全新的技术手段和伪装环境，促进了生成式可证安全隐写的研究。\u003cbr /\u003e\u003cbr /\u003e\n考虑到计算能力的快速进步以及未来可能出现的新型攻击手段，现有的传统密码学很可能在几十年后就不再安全，因此需要更加强大的加密措施应对长期安全需求。蜜罐加密是一种新型密码学技术，其目标是：若尝试使用错误密钥来解密密文，会得到看似合理的诱饵明文，这样，即使攻击者通过暴力破解获得了所有可能的明文，也难以从中定位出唯一的真明文。这样的设计显著提升了加密的安全性，使得蜜罐加密成为抵御暴力破解攻击的有效手段，特别适用于那些需要长期保护和对抗强大计算能力攻击的场景。\u003cbr /\u003e\u003cbr /\u003e\n本文从数据隐私保护的两大核心需求——隐蔽性和保密性着手，围绕生成式可证安全隐写和蜜罐加密展开研究。本文的主要工作和创新点总结如下。\u003cbr /\u003e\u003cbr /\u003e\n**1. 提出了一种基于分布副本的高效可证安全隐写构造**\u003cbr /\u003e 现有的可证安全隐写构造可分为三种：基于拒绝采样的隐写构造嵌入率低、速度慢；基于算术编码的隐写构造和基于样本空间分组的隐写构造虽然能达到较高的嵌入率和较快的速度，但是具体实现过程难以满足理论假设，因此无法达到预期的安全性。上述方法本质上都是在使用样本的索引值或样本的函数值来表达消息。为了突破这些方法的局限，本文提出了基于分布副本的高效可证安全隐写构造。通过循环移位的方式为生成模型给出的概率分布创建多个分布副本，并利用分布副本的索引值来表达消息。从分布保持的角度，给出了这种隐写构造的安全性证明。通过递归分组的思想，显著提升了这种隐写构造的嵌入率。以文本生成任务为例，对这种隐写构造进行了性能测试。实验结果表明，该隐写构造的嵌入率能接近理论极限。与正常生成相比，该隐写构造引入的额外时间相对较小，这确保了它在实际应用中的高效性。此外，将该隐写构造应用于语音合成任务上，验证了该隐写构造的通用性。\u003cbr /\u003e\u003cbr /\u003e\n**2. 提出了一种基于深度生成模型和算术编码的文本蜜罐加密方案**\u003cbr /\u003e 蜜罐加密的核心是分布转换编码器 (DTE) ，现有的 DTE 通常采用传统的统计模型和基于累积分布函数的定长编码方案。然而，这种方案在处理复杂数据时显示出建模能力、泛化能力差，而且往往不能较好地保持原始分布。本文对生成式隐写与蜜罐加密之间的关系进行分析，并尝试将生成式可证安全隐写领域的先进思想应用于文本蜜罐加密系统的设计中，提出了一种基于深度生成模型和算术编码的 DTE：首先对明文进行分词，然后使用算术编码根据深度生成模型预测的概率分布将明文编码为种子。为了消除可区分特征，在明文和种子两个层面上设计了伪随机填充方案。实验结果表明，所提出的方案压缩率较高、编码损失较小，在使用规模较大的模型时，建模损失较小、安全性较高。 \u003cbr /\u003e\u003cbr /\u003e\n### 关键词\n信息隐藏；隐写；可证安全隐写；蜜罐加密；生成模型；算术编码"
@@ -971,7 +971,7 @@ information hiding; steganography; provably secure steganography; honey encry
               <span>English</span>
             </div>
             
-            <a class="dropdown-item" href="https://dingjinyang.github.io/zh/publication/ustc_thesis/">
+            <a class="dropdown-item" href="https://ding.ac.cn/zh/publication/ustc_thesis/">
               <span>中文 (简体)</span>
             </a>
             
@@ -1217,7 +1217,7 @@ The core of honey encryption is the distribution-transforming encoder (DTE). Exi
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fustc_thesis%2F&amp;text=Provably&#43;Secure&#43;Generative&#43;Linguistic&#43;Steganography&#43;and&#43;Its&#43;Applications" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fding.ac.cn%2Fpublication%2Fustc_thesis%2F&amp;text=Provably&#43;Secure&#43;Generative&#43;Linguistic&#43;Steganography&#43;and&#43;Its&#43;Applications" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1234,7 +1234,7 @@ The core of honey encryption is the distribution-transforming encoder (DTE). Exi
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fustc_thesis%2F&amp;t=Provably&#43;Secure&#43;Generative&#43;Linguistic&#43;Steganography&#43;and&#43;Its&#43;Applications" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fding.ac.cn%2Fpublication%2Fustc_thesis%2F&amp;t=Provably&#43;Secure&#43;Generative&#43;Linguistic&#43;Steganography&#43;and&#43;Its&#43;Applications" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1253,7 +1253,7 @@ The core of honey encryption is the distribution-transforming encoder (DTE). Exi
         
       
       <li>
-        <a href="mailto:?subject=Provably%20Secure%20Generative%20Linguistic%20Steganography%20and%20Its%20Applications&amp;body=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fustc_thesis%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Provably%20Secure%20Generative%20Linguistic%20Steganography%20and%20Its%20Applications&amp;body=https%3A%2F%2Fding.ac.cn%2Fpublication%2Fustc_thesis%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1270,7 +1270,7 @@ The core of honey encryption is the distribution-transforming encoder (DTE). Exi
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fustc_thesis%2F&amp;title=Provably&#43;Secure&#43;Generative&#43;Linguistic&#43;Steganography&#43;and&#43;Its&#43;Applications" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fding.ac.cn%2Fpublication%2Fustc_thesis%2F&amp;title=Provably&#43;Secure&#43;Generative&#43;Linguistic&#43;Steganography&#43;and&#43;Its&#43;Applications" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1287,7 +1287,7 @@ The core of honey encryption is the distribution-transforming encoder (DTE). Exi
       
       
       <li>
-        <a href="whatsapp://send?text=Provably&#43;Secure&#43;Generative&#43;Linguistic&#43;Steganography&#43;and&#43;Its&#43;Applications%20https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fustc_thesis%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Provably&#43;Secure&#43;Generative&#43;Linguistic&#43;Steganography&#43;and&#43;Its&#43;Applications%20https%3A%2F%2Fding.ac.cn%2Fpublication%2Fustc_thesis%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1304,7 +1304,7 @@ The core of honey encryption is the distribution-transforming encoder (DTE). Exi
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fdingjinyang.github.io%2Fpublication%2Fustc_thesis%2F&amp;title=Provably&#43;Secure&#43;Generative&#43;Linguistic&#43;Steganography&#43;and&#43;Its&#43;Applications" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fding.ac.cn%2Fpublication%2Fustc_thesis%2F&amp;title=Provably&#43;Secure&#43;Generative&#43;Linguistic&#43;Steganography&#43;and&#43;Its&#43;Applications" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1338,11 +1338,11 @@ The core of honey encryption is the distribution-transforming encoder (DTE). Exi
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://dingjinyang.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu64ff461bb9e1bd382faa0230ebd7b389_929099_270x270_fill_q75_lanczos_center.jpg" alt="Jinyang Ding"></a>
+      <a href="https://ding.ac.cn/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu64ff461bb9e1bd382faa0230ebd7b389_929099_270x270_fill_q75_lanczos_center.jpg" alt="Jinyang Ding"></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://dingjinyang.github.io/">Jinyang Ding</a></h5>
+      <h5 class="card-title"><a href="https://ding.ac.cn/">Jinyang Ding</a></h5>
       <h6 class="card-subtitle">Master of Science</h6>
       <p class="card-text">My research interests include Information Hiding and AI Security &amp; Privacy.</p>
       <ul class="network-icon" aria-hidden="true">
